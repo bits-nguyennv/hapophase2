@@ -70,10 +70,11 @@
       height: 45px;
       size: 2em;
       color: white;
-      margin-right: 2em;
+      margin-right: -1em;
       border-radius: 3em;
       background-image: linear-gradient(to right, green, #b4ec51);
-      text-align: center; }
+      text-align: center;
+      border: none; }
       .header .start p {
         margin-top: 5px;
         font-size: 16px; }
@@ -98,7 +99,7 @@
     .mask .img {
       text-align: right;
       background: url(til.jpg) no-repeat;
-      height: 238px; }
+      background-size: 100% 100%; }
     .mask .right {
       text-align: justify;
       font-size: 13px;
@@ -111,7 +112,8 @@
       border-radius: 25px;
       background-image: linear-gradient(to right, green, #b4ec51);
       margin-top: 10px;
-      text-align: center; }
+      text-align: center;
+      border: none; }
 
   .colum {
     width: 100%;
@@ -129,12 +131,11 @@
       text-align: center; }
     .colum .left {
       text-align: justify;
-      font-size: 13px;
-      margin-top: 10px; }
+      font-size: 13px; }
     .colum .img {
       text-align: right;
       background: url(dailyReport.jpg) no-repeat;
-      height: 238px; }
+      background-size: 100% 100%; }
     .colum .btn {
       width: 144px;
       height: 45px;
@@ -143,7 +144,11 @@
       border-radius: 25px;
       background-image: linear-gradient(to right, green, #b4ec51);
       text-align: center;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      border: none; }
+      .colum .btn:focus, .colum .btn:active {
+        outline: 0 !important;
+        box-shadow: none; }
 
   .member {
     width: 100%;
@@ -166,7 +171,7 @@
     .member .img {
       text-align: right;
       background: url(page1.png) no-repeat;
-      height: 277px; }
+      background-size: 100% 100%; }
     .member .btn {
       width: 144px;
       height: 45px;
@@ -174,7 +179,11 @@
       color: white;
       border-radius: 25px;
       background-image: linear-gradient(to right, green, #b4ec51);
-      text-align: center; }
+      text-align: center;
+      border: none; }
+      .member .btn:focus, .member .btn:active {
+        outline: 0 !important;
+        box-shadow: none; }
 
   .customers {
     width: 100%;
@@ -201,7 +210,7 @@
     .customers .img {
       text-align: right;
       background: url(dailyReport.jpg) no-repeat;
-      height: 226px;
+      background-size: 100% 100%;
       margin-top: 20px; }
     .customers .btn {
       width: 144px;
@@ -211,7 +220,11 @@
       border-radius: 25px;
       background-image: linear-gradient(to right, green, #b4ec51);
       margin-bottom: 20px;
-      text-align: center; }
+      text-align: center;
+      border: none; }
+      .customers .btn:focus, .customers .btn:active {
+        outline: 0 !important;
+        box-shadow: none; }
 
   .project {
     width: 100%;
@@ -227,15 +240,13 @@
     .project .size {
       font-size: 14px;
       text-align: center; }
-    .project .right {
+    .project .lorem {
       text-align: justify;
       font-size: 13px; }
     .project .img {
       text-align: right;
       background: url(dailyReport.jpg) no-repeat;
-      height: 226px;
-      width: 100%;
-      margin-top: 10px; }
+      background-size: 100% 100%; }
     .project .btn {
       font-size: 16px;
       color: white;
@@ -245,7 +256,11 @@
       text-align: center;
       width: 144px;
       height: 45px;
-      margin-bottom: 40px; }
+      margin-bottom: 40px;
+      border: none; }
+      .project .btn:focus, .project .btn:active {
+        outline: 0 !important;
+        box-shadow: none; }
 
   .ourcustomer {
     padding: 0 2.5%; }
@@ -271,12 +286,12 @@
 
   .footer {
     width: 100%;
-    background: #39474e;
+    background: #283238;
     margin-bottom: 10px; }
     .footer .row {
       padding: 30px; }
     .footer .color {
-      color: green; }
+      color: #8bc34a; }
       .footer .color span {
         font-size: 13px; }
       .footer .color p {
@@ -289,7 +304,7 @@
       margin-top: 40px; }
       .footer .magin .icon {
         font-size: 13px;
-        color: green;
+        color: #8bc34a;
         padding-left: 10px; } }
 @media only screen and (max-width: 480px) {
   .container > div:nth-child(1) {
@@ -324,7 +339,7 @@
     display: block; }
 
   .header {
-    height: 425px;
+    height: 300px;
     background-size: cover;
     background: url(rectangle.png);
     background-size: 100% 100%;
@@ -335,7 +350,8 @@
       text-align: center; }
       .header .hapo img {
         height: 29px;
-        width: 96px; }
+        width: 96px;
+        margin-top: -50px; }
     .header .flex {
       margin-bottom: -30px; }
       .header .flex .sign {
@@ -345,7 +361,8 @@
         margin-right: 20px; }
     .header .icon {
       font-size: 24px;
-      text-align: center; }
+      text-align: center;
+      margin-top: -50px; }
     .header .lorem {
       text-align: center; }
       .header .lorem i {
@@ -449,7 +466,9 @@
     .member .img {
       text-align: right;
       background: url(page1.png) no-repeat;
-      height: 340px; }
+      height: 340px;
+      background-size: 100% 100%;
+      margin-bottom: 10px; }
     .member .btn {
       width: 144px;
       height: 45px;
@@ -457,7 +476,8 @@
       color: white;
       border-radius: 25px;
       background-image: linear-gradient(to right, green, #b4ec51);
-      text-align: center; }
+      text-align: center;
+      margin-bottom: 5px; }
 
   .ourcustomer {
     padding: 0 2.5%; }
@@ -522,12 +542,12 @@
 
   .footer {
     width: 100%;
-    background: #39474e;
+    background: #283238;
     margin-bottom: 10px; }
     .footer .row {
       padding: 30px; }
     .footer .color {
-      color: green; }
+      color: #8bc34a; }
       .footer .color span {
         font-size: 9px; }
       .footer .color p {
@@ -538,8 +558,8 @@
         width: 96px; }
     .footer .magin {
       margin-top: 50px; }
-      .footer .magin .icon {
-        color: green;
+      .footer .magin i {
+        color: #8bc34a;
         padding-left: 10px;
         margin-bottom: -30px; }
     .footer .copy {

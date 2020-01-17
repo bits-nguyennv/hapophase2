@@ -17,20 +17,22 @@
   background-size: cover;
   background-image: url(banner.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
+  height: 700px;
   outline: none; }
-  .header .sign p {
-    margin-left: 5px;
-    text-align: center;
-    margin-top: 20px;
-    width: 82px;
-    height: 36px;
-    color: #008000;
-    border: 2px solid #008000;
-    border-radius: 100px;
-    padding-right: 5px;
-    font-size: 12px;
-    padding-top: 6px; }
+  .header .sign {
+    padding-right: 36px; }
+    .header .sign p {
+      margin-left: 5px;
+      text-align: center;
+      margin-top: 20px;
+      width: 82px;
+      height: 36px;
+      color: #8bc34a;
+      border: 2px solid #8bc34a;
+      border-radius: 100px;
+      font-size: 12px;
+      padding-top: 6px; }
   .header .about {
     margin-right: 10px;
     color: black; }
@@ -43,12 +45,13 @@
     color: #008000; }
     .header .hapo img {
       height: 77px;
-      width: 256px; }
+      width: 256px;
+      margin-left: 8px; }
   .header .icon {
     text-align: center; }
   .header .iteam {
     font-size: 48px;
-    padding: 0 47px 0 47px; }
+    padding: 0 60px 0 60px; }
   .header .word {
     font-size: 36px; }
   .header .lorem {
@@ -64,7 +67,9 @@
     border-radius: 3em;
     background-image: linear-gradient(to right, green, #b4ec51);
     text-align: center;
-    outline: none; }
+    outline: none;
+    border: none;
+    margin-top: 10px; }
     .header .start p {
       margin-top: 5px;
       font-size: 16px; }
@@ -75,14 +80,9 @@
 .mask {
   width: 100%; }
   .mask .left {
-    width: 50%;
-    float: left;
-    margin-top: 2em; }
-    .mask .left .img {
-      text-align: right;
-      background: url(til.png) no-repeat;
-      height: 371px;
-      margin-left: 40px; }
+    width: 100%;
+    margin-top: 2em;
+    background: url(til.png) no-repeat center; }
   .mask .btn {
     width: 195px;
     height: 50px;
@@ -90,7 +90,8 @@
     color: white;
     border-radius: 25px;
     background-image: linear-gradient(to right, green, #b4ec51);
-    text-align: center; }
+    text-align: center;
+    border: none; }
     .mask .btn:focus, .mask .btn:active {
       outline: 0 !important;
       box-shadow: none; }
@@ -112,7 +113,6 @@
   width: 100%; }
   .colum .left {
     width: 50%;
-    float: left;
     margin-top: 20px;
     text-align: left;
     padding-left: 30px;
@@ -133,16 +133,15 @@
     color: white;
     border-radius: 25px;
     background-image: linear-gradient(to right, green, #b4ec51);
-    text-align: center; }
+    text-align: center;
+    border: none; }
     .colum .btn:focus, .colum .btn:active {
       outline: 0 !important;
       box-shadow: none; }
   .colum .right {
     width: 50px;
-    margin-top: 20px; }
-    .colum .right .img {
-      background: url(dailyReport.png) no-repeat;
-      height: 354px; }
+    margin-top: 20px;
+    background: url(dailyReport.png) no-repeat center; }
 
 .oval {
   padding: 66.5px 0;
@@ -195,31 +194,21 @@
     color: white;
     border-radius: 25px;
     background-image: linear-gradient(to right, green, #b4ec51);
-    text-align: center; }
+    text-align: center;
+    border: none; }
     .members .btn:focus, .members .btn:active {
       outline: 0 !important;
       box-shadow: none; }
   .members .right {
     width: 50%;
-    padding-top: 50px; }
-    .members .right .img {
-      background: url(members.png) no-repeat;
-      height: 388px;
-      width: 100%; }
+    padding-top: 50px;
+    background: url(members.png) no-repeat center; }
 
 .customers {
   width: 100%; }
   .customers .left {
     width: 50%;
-    float: left; }
-    .customers .left .img {
-      background: url(dailyReport.png) no-repeat;
-      height: 398px;
-      width: 100%;
-      margin-top: 10px;
-      text-align: left;
-      margin-left: 20px;
-      margin-top: 20px; }
+    background: url(dailyReport.png) no-repeat center; }
   .customers .right {
     width: 50%;
     text-align: justify; }
@@ -244,7 +233,8 @@
       color: white;
       border-radius: 25px;
       background-image: linear-gradient(to right, green, #b4ec51);
-      text-align: center; }
+      text-align: center;
+      border: none; }
       .customers .right .btn:focus, .customers .right .btn:active {
         outline: 0 !important;
         box-shadow: none; }
@@ -301,7 +291,6 @@
   .project .left {
     text-align: justify;
     width: 50%;
-    float: left;
     margin-top: 20px; }
     .project .left .magin {
       margin-right: 10px;
@@ -319,27 +308,23 @@
       color: white;
       border-radius: 25px;
       background-image: linear-gradient(to right, green, #b4ec51);
-      text-align: center; }
+      text-align: center;
+      border: none; }
       .project .left .btn:focus, .project .left .btn:active {
         outline: 0 !important;
         box-shadow: none; }
   .project .right {
-    width: 50%; }
-    .project .right .img {
-      background: url(dailyReport.png) no-repeat;
-      height: 388px;
-      width: 100%;
-      margin-top: 20px;
-      text-align: left; }
+    width: 50%;
+    background: url(dailyReport.png) no-repeat center; }
 
 .footer {
   width: 100%;
-  background: #39474e;
+  background: #283238;
   margin-bottom: 10px; }
   .footer .row {
     padding: 30px; }
   .footer .color {
-    color: #008000; }
+    color: #8bc34a; }
     .footer .color span {
       font-size: 16px; }
     .footer .color p {
@@ -351,7 +336,7 @@
   .footer .magin {
     margin-top: 50px; }
     .footer .magin .icon {
-      color: #008000;
+      color: #8bc34a;
       padding-left: 10px;
       margin-bottom: -30px; }
 
