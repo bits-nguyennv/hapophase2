@@ -1,29 +1,14 @@
-
-.container {
-    > div:nth-child(2) {
-        display: none;
-    }
-    > div:nth-child(4) {
-        display: none;
-    }
-    > div:nth-child(6) {
-        display: none;
-    }
-    > div:nth-child(8) {
-        display: none;
-    }
-    > div:nth-child(10) {
-        display: none;
-    }
-    > div:nth-child(13) {
-        display: none;
-    }
-    > div:nth-child(15) {
-        display: none;
-    }
+.mask-mb,
+.colum-mb,
+.oval-mb,
+.members-mb,
+.project-mb,
+.customers-mb,
+.footer-mb {
+    display: none;
 }
 $green: #008000;
-
+$light_green:#8bc34a;
 .header {
     background-size: cover;
     background-image: url(banner.png);
@@ -39,8 +24,8 @@ $green: #008000;
                 margin-top: 20px;
                 width: 82px;
                 height: 36px;
-                color: #8bc34a;
-                border: 2px solid #8bc34a;  
+                color: $light_green;
+                border: 2px solid $light_green;  
                 border-radius: 100px; 
                 font-size: 12px;
                 padding-top: 6px;
@@ -48,15 +33,13 @@ $green: #008000;
         }    
         .about {
             margin-right: 10px;
-            color: black;
-            
+            color: black;           
             p {
                 font-size: 12px;
                 margin-top: 20px;
                 padding-top: 6px;
             }
-            }
-          
+        }         
     .hapo {
         text-align: center; 
         color: $green;
@@ -64,7 +47,7 @@ $green: #008000;
            height:77px;
            width: 256px;
            margin-left: 8px;
-       }
+        }
     }
     .icon {
         text-align: center;      
@@ -76,8 +59,7 @@ $green: #008000;
     .word {
         font-size: 36px;
     }
-    .lorem {
-        text-align: center;
+    .titel {
         i {
             font-size: 18px;
         }
@@ -87,7 +69,6 @@ $green: #008000;
         height: 50px;
         size: 2em;
         color: white;
-        margin-right: 2em;
         border-radius: 3em; 
         background-image: linear-gradient(to right ,green,#b4ec51 );
         text-align: center;
@@ -108,7 +89,7 @@ $green: #008000;
 } 
 
 .mask {
-     width: 100%;
+    width: 100%;
     .left {
         width: 100%;
         margin-top: 2em;
@@ -127,8 +108,7 @@ $green: #008000;
             outline: 0 !important;
             box-shadow: none;
         }
-    }
-    
+    } 
     .right {
         width: 50%;
         margin-top: 20px;
@@ -183,8 +163,7 @@ $green: #008000;
             outline: 0 !important;
             box-shadow: none;
         }
-    }
-    
+    }   
     .right {
         width: 50px;
         margin-top: 20px;
@@ -200,7 +179,7 @@ $green: #008000;
         border-radius: 100px;
         border: 2px solid #FFFFFF;     
         .icon {          
-            font-size: 26px;
+            font-size: 36px;
             color: #FFFFFF;
         }
     }
@@ -214,6 +193,9 @@ $green: #008000;
         text-align: center;
         color: #FFFFFF;
         margin-top: -25px;
+        span {
+            font-size: 24px;
+        }
     }
     p {
         color: #FFFFFF;
@@ -221,7 +203,6 @@ $green: #008000;
 }  
 .members {
     width: 100%;
-    // box-shadow: gray;
     .left {
         width: 50%;
         text-align: justify;
@@ -264,8 +245,7 @@ $green: #008000;
         width: 50%;
         padding-top: 50px;  
         background: url(members.png) no-repeat center;   
-    }
-   
+    }  
 }    
 .customers {
     width: 100%;
@@ -312,7 +292,7 @@ $green: #008000;
         }
     }
 } 
-.ourcustomer {
+.our-customer {
     width: 100%;
     background: url(rectangle3.png) no-repeat;
     .our {
@@ -346,7 +326,7 @@ $green: #008000;
             font-size: 72px;
             color: white;
             .ti-quote-left {
-                padding-right: 40px;
+                padding-right: 50px;
                 padding-top: 50px;
                 padding-top: 0px;
             }
@@ -419,13 +399,13 @@ $green: #008000;
      padding: 30px;
     }
     .color {
-        color: #8bc34a;
+        color: $light_green;
         span {
             font-size: 16px;
         }
         p {
             color: white;
-            font-size: 10px;
+            font-size: 16px;
         }
         img {
             height: 29px;
@@ -434,8 +414,8 @@ $green: #008000;
     }
     .magin {
         margin-top: 50px;  
-        .icon {
-            color: #8bc34a;
+        i {
+            color: $light_green;
             padding-left: 10px;
             margin-bottom: -30px;
         }

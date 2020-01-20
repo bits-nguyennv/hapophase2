@@ -1,33 +1,20 @@
 @media only screen and (max-width: 768px) {
-  .container > div:nth-child(1) {
+  .mask,
+  .colum,
+  .oval-mb,
+  .members,
+  .customers,
+  .project,
+  .footer-mb {
     display: none; }
-  .container > div:nth-child(2) {
-    display: block; }
-  .container > div:nth-child(3) {
-    display: none; }
-  .container > div:nth-child(4) {
-    display: block; }
-  .container > div:nth-child(5) {
-    display: block; }
-  .container > div:nth-child(7) {
-    display: none; }
-  .container > div:nth-child(8) {
-    display: block; }
-  .container > div:nth-child(11) {
-    display: none; }
-  .container > div:nth-child(12) {
-    display: block; }
-  .container > div:nth-child(9) {
-    display: none; }
-  .container > div:nth-child(10) {
-    display: block; }
-  .container > div:nth-child(6) {
-    display: none; }
-  .container > div:nth-child(13) {
-    display: block; }
-  .container > div:nth-child(12) {
-    display: none; }
-  .container > div:nth-child(11) {
+
+  .mask-mb,
+  .colum-mb,
+  .oval,
+  .members-mb,
+  .customers-mb,
+  .project-mb,
+  .footer {
     display: block; }
 
   .header {
@@ -61,10 +48,8 @@
     .header .iteam {
       font-size: 24px;
       margin-top: 40px; }
-    .header .lorem {
-      text-align: center; }
-      .header .lorem i {
-        font-size: 14px; }
+    .header .titel i {
+      font-size: 14px; }
     .header .start {
       width: 144px;
       height: 45px;
@@ -72,7 +57,7 @@
       color: white;
       margin-right: -1em;
       border-radius: 3em;
-      background-image: linear-gradient(to right, green, #b4ec51);
+      background-image: linear-gradient(to right, #008000, #b4ec51);
       text-align: center;
       border: none; }
       .header .start p {
@@ -82,206 +67,206 @@
       outline: 0 !important;
       box-shadow: none; }
 
-  .mask {
+  .mask-mb {
     width: 100%;
     text-align: center;
     margin-top: 10px; }
-    .mask .magin {
+    .mask-mb .magin {
       font-size: 30px;
       margin-right: 10px; }
-      .mask .magin p {
+      .mask-mb .magin p {
         text-align: justify;
         font-size: 36px;
         text-align: center; }
-    .mask .size {
+    .mask-mb .size {
       font-size: 14px;
       text-align: center; }
-    .mask .img {
+    .mask-mb .image {
       text-align: right;
       background: url(til.jpg) no-repeat;
       background-size: 100% 100%; }
-    .mask .right {
+    .mask-mb .right {
       text-align: justify;
       font-size: 13px;
       margin-top: -6px; }
-    .mask .btn {
+    .mask-mb .btn {
       width: 144px;
       height: 45px;
       font-size: 16px;
       color: white;
       border-radius: 25px;
-      background-image: linear-gradient(to right, green, #b4ec51);
+      background-image: linear-gradient(to right, #008000, #b4ec51);
       margin-top: 10px;
       text-align: center;
       border: none; }
 
-  .colum {
+  .colum-mb {
     width: 100%;
     text-align: center;
     margin-top: 10px; }
-    .colum .magin {
+    .colum-mb .magin {
       font-size: 30px;
       margin-right: 10px; }
-      .colum .magin p {
+      .colum-mb .magin p {
         text-align: justify;
         font-size: 36px;
         text-align: center; }
-    .colum .size {
+    .colum-mb .size {
       font-size: 14px;
       text-align: center; }
-    .colum .left {
+    .colum-mb .left {
       text-align: justify;
       font-size: 13px; }
-    .colum .img {
+    .colum-mb .image {
       text-align: right;
       background: url(dailyReport.jpg) no-repeat;
       background-size: 100% 100%; }
-    .colum .btn {
+    .colum-mb .btn {
       width: 144px;
       height: 45px;
       font-size: 16px;
       color: white;
       border-radius: 25px;
-      background-image: linear-gradient(to right, green, #b4ec51);
+      background-image: linear-gradient(to right, #008000, #b4ec51);
       text-align: center;
       margin-bottom: 20px;
       border: none; }
-      .colum .btn:focus, .colum .btn:active {
+      .colum-mb .btn:focus, .colum-mb .btn:active {
         outline: 0 !important;
         box-shadow: none; }
 
-  .member {
+  .members-mb {
     width: 100%;
     text-align: center;
     margin-top: 10px; }
-    .member .magin {
+    .members-mb .magin {
       font-size: 30px;
       margin-right: 10px; }
-    .member .size {
+    .members-mb .size {
       font-size: 14px;
       text-align: center; }
-    .member .left {
+    .members-mb .left {
       text-align: justify;
       font-size: 13px;
       margin-top: 10px; }
-      .member .left i {
-        color: green;
+      .members-mb .left i {
+        color: #008000;
         margin-right: 10px;
         font-size: 18px; }
-    .member .img {
+    .members-mb .image {
       text-align: right;
       background: url(page1.png) no-repeat;
       background-size: 100% 100%; }
-    .member .btn {
+    .members-mb .btn {
       width: 144px;
       height: 45px;
       font-size: 16px;
       color: white;
       border-radius: 25px;
-      background-image: linear-gradient(to right, green, #b4ec51);
+      background-image: linear-gradient(to right, #008000, #b4ec51);
       text-align: center;
       border: none; }
-      .member .btn:focus, .member .btn:active {
+      .members-mb .btn:focus, .members-mb .btn:active {
         outline: 0 !important;
         box-shadow: none; }
 
-  .customers {
+  .customers-mb {
     width: 100%;
     text-align: center;
     margin-top: 10px; }
-    .customers .magin {
+    .customers-mb .magin {
       font-size: 30px;
       margin-right: 10px; }
-      .customers .magin p {
+      .customers-mb .magin p {
         text-align: justify;
         font-size: 36px;
         text-align: center; }
-    .customers .size {
+    .customers-mb .size {
       font-size: 14px;
       text-align: center; }
-    .customers .right {
+    .customers-mb .right {
       text-align: justify;
       font-size: 13px;
       margin-top: 10px; }
-      .customers .right i {
-        color: green;
+      .customers-mb .right i {
+        color: #008000;
         margin-right: 10px;
         font-size: 18px; }
-    .customers .img {
+    .customers-mb .image {
       text-align: right;
       background: url(dailyReport.jpg) no-repeat;
       background-size: 100% 100%;
       margin-top: 20px; }
-    .customers .btn {
+    .customers-mb .btn {
       width: 144px;
       height: 45px;
       font-size: 16px;
       color: white;
       border-radius: 25px;
-      background-image: linear-gradient(to right, green, #b4ec51);
+      background-image: linear-gradient(to right, #008000, #b4ec51);
       margin-bottom: 20px;
       text-align: center;
       border: none; }
-      .customers .btn:focus, .customers .btn:active {
+      .customers-mb .btn:focus, .customers-mb .btn:active {
         outline: 0 !important;
         box-shadow: none; }
 
-  .project {
+  .project-mb {
     width: 100%;
     text-align: center;
     margin-top: 10px; }
-    .project .magin {
+    .project-mb .magin {
       font-size: 30px;
       margin-right: 10px; }
-      .project .magin p {
+      .project-mb .magin p {
         text-align: justify;
         font-size: 36px;
         text-align: center; }
-    .project .size {
+    .project-mb .size {
       font-size: 14px;
       text-align: center; }
-    .project .lorem {
+    .project-mb .text-title {
       text-align: justify;
       font-size: 13px; }
-    .project .img {
+    .project-mb .image {
       text-align: right;
       background: url(dailyReport.jpg) no-repeat;
       background-size: 100% 100%; }
-    .project .btn {
+    .project-mb .btn {
       font-size: 16px;
       color: white;
       border-radius: 25px;
-      background-image: linear-gradient(to right, green, #b4ec51);
+      background-image: linear-gradient(to right, #008000, #b4ec51);
       border-radius: 25px;
       text-align: center;
       width: 144px;
       height: 45px;
       margin-bottom: 40px;
       border: none; }
-      .project .btn:focus, .project .btn:active {
+      .project-mb .btn:focus, .project-mb .btn:active {
         outline: 0 !important;
         box-shadow: none; }
 
-  .ourcustomer {
-    padding: 0 2.5%; }
-    .ourcustomer .designer {
+  .our-customer {
+    padding: 0 6.8%; }
+    .our-customer .designer {
       padding: 0 2%; }
-    .ourcustomer .total {
+    .our-customer .total {
       text-align: left;
       color: white; }
-      .ourcustomer .total div {
+      .our-customer .total div {
         font-size: 18px;
         padding: 50px 5px 0px 10px; }
-      .ourcustomer .total i {
+      .our-customer .total i {
         font-size: 64px;
         color: white; }
-        .ourcustomer .total i .ti-quote-left {
+        .our-customer .total i .ti-quote-left {
           padding-right: 40px;
           padding-top: 50px;
           padding-top: 0px; }
-      .ourcustomer .total .ti-quote-right {
+      .our-customer .total .ti-quote-right {
         padding-top: 133px; }
-    .ourcustomer p {
+    .our-customer p {
       color: white; }
 
   .footer {
@@ -298,44 +283,28 @@
         color: white;
         font-size: 13px; }
       .footer .color img {
-        height: 24px;
         width: 86px; }
     .footer .magin {
       margin-top: 40px; }
       .footer .magin .icon {
-        font-size: 13px;
-        color: #8bc34a;
-        padding-left: 10px; } }
+        font-size: 14px;
+        color: #8bc34a; } }
 @media only screen and (max-width: 480px) {
-  .container > div:nth-child(1) {
+  .mask,
+  .colum,
+  .oval,
+  .members,
+  .customers,
+  .project,
+  .footer {
     display: none; }
-  .container > div:nth-child(2) {
-    display: block; }
-  .container > div:nth-child(3) {
-    display: none; }
-  .container > div:nth-child(4) {
-    display: block; }
-  .container > div:nth-child(5) {
-    display: none; }
-  .container > div:nth-child(6) {
-    display: block; }
-  .container > div:nth-child(7) {
-    display: none; }
-  .container > div:nth-child(8) {
-    display: block; }
-  .container > div:nth-child(11) {
-    display: block; }
-  .container > div:nth-child(12) {
-    display: none; }
-  .container > div:nth-child(9) {
-    display: none; }
-  .container > div:nth-child(10) {
-    display: none; }
-  .container > div:nth-child(13) {
-    display: block; }
-  .container > div:nth-child(14) {
-    display: none; }
-  .container > div:nth-child(15) {
+
+  .mask-mb,
+  .colum-mb,
+  .oval-mb,
+  .members-mb,
+  .project-mb,
+  .footer-mb {
     display: block; }
 
   .header {
@@ -363,10 +332,8 @@
       font-size: 24px;
       text-align: center;
       margin-top: -50px; }
-    .header .lorem {
-      text-align: center; }
-      .header .lorem i {
-        font-size: 9px; }
+    .header .titel i {
+      font-size: 9px; }
     .header .start {
       width: 144px;
       height: 40px;
@@ -374,211 +341,212 @@
       color: white;
       margin-right: -2px;
       border-radius: 3em;
-      background-image: linear-gradient(to right, green, #b4ec51);
+      background-image: linear-gradient(to right, #008000, #b4ec51);
       text-align: center; }
     .header .btn:focus, .header .btn:active {
       outline: 0 !important;
       box-shadow: none; }
 
-  .mask {
+  .mask-mb {
     width: 100%;
     text-align: center; }
-    .mask .magin {
+    .mask-mb .magin {
       font-size: 20px;
       margin-right: 10px; }
-      .mask .magin p {
+      .mask-mb .magin p {
         text-align: justify center;
         font-size: 24px; }
-    .mask .size {
+    .mask-mb .size {
       font-size: 13px;
       text-align: center; }
-    .mask .img {
+    .mask-mb .image {
       height: 308px;
       text-align: right;
       background: url(til.png) no-repeat; }
-    .mask .right {
+    .mask-mb .right {
       text-align: justify;
       font-size: 13px; }
-      .mask .right p {
+      .mask-mb .right p {
         margin-top: 20px; }
-    .mask .btn {
+    .mask-mb .btn {
       width: 144px;
       height: 45px;
       font-size: 16px;
       color: white;
       border-radius: 25px;
-      background-image: linear-gradient(to right, green, #b4ec51);
+      background-image: linear-gradient(to right, #008000, #b4ec51);
       margin-top: 10px;
       text-align: center; }
 
-  .colum {
+  .colum-mb {
     width: 100%;
     text-align: center;
     margin-top: 10px; }
-    .colum .magin {
+    .colum-mb .magin {
       font-size: 20px;
       margin-right: 10px; }
-      .colum .magin p {
+      .colum-mb .magin p {
         text-align: justify;
         font-size: 24px;
         text-align: center; }
-    .colum .size {
+    .colum-mb .size {
       font-size: 14px;
       text-align: center; }
-    .colum .left {
+    .colum-mb .left {
       text-align: justify;
       font-size: 13px;
       margin-top: 10px; }
-    .colum .img {
+    .colum-mb .image {
       text-align: right;
       background: url(dailyReport.png) no-repeat;
       height: 292px;
       width: 100%;
       margin-top: 20px; }
-    .colum .btn {
+    .colum-mb .btn {
       width: 144px;
       height: 45px;
       font-size: 16px;
       color: white;
       border-radius: 25px;
-      background-image: linear-gradient(to right, green, #b4ec51);
+      background-image: linear-gradient(to right, #008000, #b4ec51);
       margin-top: 15px;
       text-align: center; }
 
-  .member {
+  .members-mb {
     width: 100%;
     text-align: center;
     margin-top: 10px; }
-    .member .magin {
+    .members-mb .magin {
       font-size: 20px;
       margin-right: 10px; }
-    .member .size {
+    .members-mb .size {
       font-size: 14px;
       text-align: center; }
-    .member .left {
+    .members-mb .left {
       text-align: justify;
       font-size: 13px;
       margin-top: 10px; }
-      .member .left i {
-        color: green;
+      .members-mb .left i {
+        color: #008000;
         margin-right: 10px;
         font-size: 18px; }
-    .member .img {
+    .members-mb .image {
       text-align: right;
       background: url(page1.png) no-repeat;
       height: 340px;
       background-size: 100% 100%;
       margin-bottom: 10px; }
-    .member .btn {
+    .members-mb .btn {
       width: 144px;
       height: 45px;
       font-size: 16px;
       color: white;
       border-radius: 25px;
-      background-image: linear-gradient(to right, green, #b4ec51);
+      background-image: linear-gradient(to right, #008000, #b4ec51);
       text-align: center;
       margin-bottom: 5px; }
 
-  .ourcustomer {
-    padding: 0 2.5%; }
-    .ourcustomer .total {
+  .our-customer {
+    padding: 0 7%; }
+    .our-customer .total {
       text-align: left;
       color: white; }
-      .ourcustomer .total div {
+      .our-customer .total div {
         font-size: 14px;
         padding: 0 5px 0px 10px; }
-      .ourcustomer .total i {
+      .our-customer .total i {
         font-size: 48px;
         color: white; }
-      .ourcustomer .total .ti-quote-right {
+      .our-customer .total .ti-quote-right {
         padding-top: 140px; }
-    .ourcustomer .designer span {
-      color: white;
-      font-size: 13px;
-      margin-left: 10px; }
-    .ourcustomer .designer p {
-      color: white;
-      font-size: 10px;
-      margin-left: 16px;
-      margin-top: 0; }
-    .ourcustomer p {
+    .our-customer .designer {
+      padding: 0 2%; }
+      .our-customer .designer span {
+        color: white;
+        font-size: 13px;
+        margin-left: 10px; }
+      .our-customer .designer p {
+        color: white;
+        font-size: 10px;
+        margin-left: 16px;
+        margin-top: 0; }
+    .our-customer p {
       color: white;
       text-align: justify;
       margin-top: 50px; }
 
-  .project {
+  .project-mb {
     width: 100%;
     text-align: center;
     margin-top: 10px; }
-    .project .magin {
+    .project-mb .magin {
       font-size: 20px;
       margin-right: 10px; }
-      .project .magin p {
+      .project-mb .magin p {
         text-align: justify;
         font-size: 36px;
         text-align: center; }
-    .project .size {
+    .project-mb .size {
       font-size: 14px;
       text-align: center; }
-    .project .right {
+    .project-mb .right {
       text-align: justify;
       font-size: 13px; }
-    .project .img {
+    .project-mb .image {
       text-align: right;
       background: url(dailyReport.png) no-repeat;
       height: 298px;
       width: 100%;
       margin-top: 10px; }
-    .project .btn {
+    .project-mb .btn {
       font-size: 16px;
       color: white;
       border-radius: 25px;
-      background-image: linear-gradient(to right, green, #b4ec51);
+      background-image: linear-gradient(to right, #008000, #b4ec51);
       border-radius: 25px;
       text-align: center;
       width: 144px;
       height: 45px;
       margin-bottom: 40px; }
 
-  .footer {
+  .footer-mb {
     width: 100%;
     background: #283238;
     margin-bottom: 10px; }
-    .footer .row {
+    .footer-mb .row {
       padding: 30px; }
-    .footer .color {
+    .footer-mb .color {
       color: #8bc34a; }
-      .footer .color span {
+      .footer-mb .color span {
         font-size: 9px; }
-      .footer .color p {
+      .footer-mb .color p {
         color: white;
         font-size: 10px; }
-      .footer .color img {
-        height: 24px;
+      .footer-mb .color img {
         width: 96px; }
-    .footer .magin {
+    .footer-mb .magin {
       margin-top: 50px; }
-      .footer .magin i {
+      .footer-mb .magin i {
         color: #8bc34a;
         padding-left: 10px;
         margin-bottom: -30px; }
-    .footer .copy {
+    .footer-mb .copy {
       color: white;
       font-size: 10px;
       margin-top: 50px; }
 
-  .oval {
+  .oval-mb {
     padding: 66.5px 0;
-    background-image: linear-gradient(to right, green, #b4ec51); }
-    .oval .circle {
+    background-image: linear-gradient(to right, #008000, #b4ec51); }
+    .oval-mb .circle {
       width: 100px;
       height: 100px;
       border-radius: 100px;
       border: 2px solid #FFFFFF; }
-      .oval .circle .icon {
-        font-size: 26px;
+      .oval-mb .circle .icon {
+        font-size: 36px;
         color: #FFFFFF; }
-    .oval .cle {
+    .oval-mb .cle {
       box-sizing: border-box;
       height: 50px;
       width: 50px;
@@ -588,14 +556,16 @@
       text-align: center;
       color: #FFFFFF;
       margin-top: -25px; }
-    .oval p {
+      .oval-mb .cle span {
+        font-size: 24px; }
+    .oval-mb p {
       color: #FFFFFF; }
-    .oval .carousel-indicators {
+    .oval-mb .carousel-indicators {
       margin-top: 0px;
       border-radius: 40px;
       margin-bottom: -10px;
       color: white; }
-      .oval .carousel-indicators li {
+      .oval-mb .carousel-indicators li {
         width: 10px;
         height: 10px;
         -moz-border-radius: 50px;

@@ -1,16 +1,10 @@
-.container > div:nth-child(2) {
-  display: none; }
-.container > div:nth-child(4) {
-  display: none; }
-.container > div:nth-child(6) {
-  display: none; }
-.container > div:nth-child(8) {
-  display: none; }
-.container > div:nth-child(10) {
-  display: none; }
-.container > div:nth-child(13) {
-  display: none; }
-.container > div:nth-child(15) {
+.mask-mb,
+.colum-mb,
+.oval-mb,
+.members-mb,
+.project-mb,
+.customers-mb,
+.footer-mb {
   display: none; }
 
 .header {
@@ -54,16 +48,13 @@
     padding: 0 60px 0 60px; }
   .header .word {
     font-size: 36px; }
-  .header .lorem {
-    text-align: center; }
-    .header .lorem i {
-      font-size: 18px; }
+  .header .titel i {
+    font-size: 18px; }
   .header .start {
     width: 192px;
     height: 50px;
     size: 2em;
     color: white;
-    margin-right: 2em;
     border-radius: 3em;
     background-image: linear-gradient(to right, green, #b4ec51);
     text-align: center;
@@ -152,7 +143,7 @@
     border-radius: 100px;
     border: 2px solid #FFFFFF; }
     .oval .circle .icon {
-      font-size: 26px;
+      font-size: 36px;
       color: #FFFFFF; }
   .oval .cle {
     box-sizing: border-box;
@@ -164,6 +155,8 @@
     text-align: center;
     color: #FFFFFF;
     margin-top: -25px; }
+    .oval .cle span {
+      font-size: 24px; }
   .oval p {
     color: #FFFFFF; }
 
@@ -239,19 +232,19 @@
         outline: 0 !important;
         box-shadow: none; }
 
-.ourcustomer {
+.our-customer {
   width: 100%;
   background: url(rectangle3.png) no-repeat; }
-  .ourcustomer .our {
+  .our-customer .our {
     color: white;
     text-align: center;
     font-size: 48px; }
-  .ourcustomer .carousel-indicators {
+  .our-customer .carousel-indicators {
     margin-top: 0px;
     border-radius: 40px;
     margin-bottom: -10px;
     color: white; }
-    .ourcustomer .carousel-indicators li {
+    .our-customer .carousel-indicators li {
       width: 10px;
       height: 10px;
       -moz-border-radius: 50px;
@@ -259,31 +252,31 @@
       --border-radius: 50px;
       border-radius: 100px;
       border: 2px solid #FFFFFF; }
-  .ourcustomer .total {
+  .our-customer .total {
     text-align: left;
     color: white; }
-    .ourcustomer .total div {
+    .our-customer .total div {
       font-size: 18px;
       padding: 50px 5px 0px 10px; }
-    .ourcustomer .total i {
+    .our-customer .total i {
       font-size: 72px;
       color: white; }
-      .ourcustomer .total i .ti-quote-left {
-        padding-right: 40px;
+      .our-customer .total i .ti-quote-left {
+        padding-right: 50px;
         padding-top: 50px;
         padding-top: 0px; }
-    .ourcustomer .total .ti-quote-right {
+    .our-customer .total .ti-quote-right {
       padding-top: 66px;
       padding-right: 20px; }
-  .ourcustomer .designer span {
+  .our-customer .designer span {
     color: white;
     font-size: 13px;
     margin-left: 10px; }
-  .ourcustomer .designer p {
+  .our-customer .designer p {
     color: white;
     font-size: 10px;
     margin-left: 16px; }
-  .ourcustomer p {
+  .our-customer p {
     color: white; }
 
 .project {
@@ -329,13 +322,13 @@
       font-size: 16px; }
     .footer .color p {
       color: white;
-      font-size: 10px; }
+      font-size: 16px; }
     .footer .color img {
       height: 29px;
       width: 96px; }
   .footer .magin {
     margin-top: 50px; }
-    .footer .magin .icon {
+    .footer .magin i {
       color: #8bc34a;
       padding-left: 10px;
       margin-bottom: -30px; }
