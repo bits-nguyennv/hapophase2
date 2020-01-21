@@ -40,9 +40,9 @@
             }
         }  
 
-        .flex {
-
-            .sign {
+        .sign {
+            padding-right: 19px;
+            .sign-in {
                 height: 36px;
                 width: 86px;
                 border-radius: 34px;
@@ -447,7 +447,7 @@
 
             p {
                 color: $white;
-                font-size: 13px;
+                font-size: 10px;
             }
 
             img {
@@ -505,10 +505,10 @@
             }
         }  
 
-        .flex {
+        .sign {
             margin-bottom: -30px;
-
-            .sign {
+            padding-right: 20px;
+            .sign-in {
                 height: 36px;
                 width: 86px;
                 border-radius: 34px;
