@@ -279,7 +279,7 @@
         padding: 50px 5px 0px 10px; }
       .our-customer .total i {
         font-size: 64px;
-        color: white; }
+        color: gray; }
         .our-customer .total i .ti-quote-left {
           padding-right: 40px;
           padding-top: 50px;
@@ -287,6 +287,8 @@
       .our-customer .total .ti-quote-right {
         padding-top: 133px; }
     .our-customer p {
+      color: white;
+      opacity: 40%;
       color: white; }
 
   .footer {
@@ -491,7 +493,7 @@
         padding: 0 5px 0px 10px; }
       .our-customer .total i {
         font-size: 48px;
-        color: white; }
+        color: gray; }
       .our-customer .total .ti-quote-right {
         padding-top: 140px; }
     .our-customer .designer {
@@ -506,6 +508,8 @@
         margin-left: 16px;
         margin-top: 0; }
     .our-customer p {
+      color: white;
+      opacity: 40%;
       color: white;
       text-align: justify;
       margin-top: 50px; }

@@ -16,7 +16,7 @@
   outline: none; }
   .header .sign {
     padding-right: 36px; }
-    .header .sign p {
+    .header .sign .sign-in {
       margin-left: 5px;
       text-align: center;
       margin-top: 20px;
@@ -274,7 +274,7 @@
       padding: 50px 5px 0px 10px; }
     .our-customer .total i {
       font-size: 72px;
-      color: white; }
+      color: gray; }
       .our-customer .total i .ti-quote-left {
         padding-right: 50px;
         padding-top: 50px;
@@ -291,7 +291,8 @@
     font-size: 10px;
     margin-left: 16px; }
   .our-customer p {
-    color: white; }
+    color: white;
+    opacity: 40%; }
 
 .project {
   width: 100%; }

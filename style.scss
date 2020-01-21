@@ -17,10 +17,10 @@
     height: 700px;
     outline: none; 
 
-        .sign{
+        .sign {
             padding-right: 36px;
 
-            p {
+            .sign-in {
                 margin-left: 5px;
                 text-align: center;
                 margin-top: 20px;
@@ -364,12 +364,12 @@
             background-image: linear-gradient(to right ,$green,#b4ec51 );
             text-align: center;
             border: none;
-
+    
             &:focus, &:active {
                 outline: 0 !important;
                 box-shadow: none;
             }
-        }
+        } 
     }
 } 
 
@@ -412,7 +412,7 @@
 
         i {
             font-size: 72px;
-            color: $white;
+            color: gray;
 
             .ti-quote-left {
                 padding-right: 50px;
@@ -444,6 +444,7 @@
     }
         p {
             color: $white;
+            opacity: 40%;
         }
 }   
 
@@ -486,12 +487,12 @@
             background-image: linear-gradient(to right ,$green,#b4ec51 );
             text-align: center;
             border: none;
-
+    
             &:focus, &:active {
                 outline: 0 !important;
                 box-shadow: none;
             }
-        }
+        } 
     }
 
     .right {

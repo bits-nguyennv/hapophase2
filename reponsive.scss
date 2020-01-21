@@ -408,7 +408,7 @@
 
             i {
                 font-size: 64px;
-                color: $white;
+                color: gray;
 
                 .ti-quote-left {
                     padding-right: 40px;
@@ -423,6 +423,8 @@
         }
 
         p {
+            color: $white;
+            opacity: 40%;
             color: $white;
         }   
     }
@@ -723,7 +725,7 @@
 
             i {
                 font-size: 48px;
-                color: $white;
+                color: gray;
             }
 
             .ti-quote-right {
@@ -749,6 +751,8 @@
         }
 
         p {
+            color: $white;
+            opacity: 40%;
             color: $white;
             text-align: justify;
             margin-top: 50px;
