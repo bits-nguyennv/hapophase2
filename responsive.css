@@ -71,13 +71,16 @@
     width: 100%;
     text-align: center;
     margin-top: 10px; }
-    .mask-mb .magin {
-      font-size: 30px;
-      margin-right: 10px; }
-      .mask-mb .magin p {
-        text-align: justify;
-        font-size: 36px;
-        text-align: center; }
+    .mask-mb .today {
+      font-size: 36px;
+      font-weight: 100; }
+      .mask-mb .today .magin {
+        font-size: 30px;
+        margin-right: 10px; }
+        .mask-mb .today .magin p {
+          text-align: justify;
+          font-size: 36px;
+          text-align: center; }
     .mask-mb .size {
       font-size: 14px;
       text-align: center; }
@@ -104,13 +107,16 @@
     width: 100%;
     text-align: center;
     margin-top: 10px; }
-    .colum-mb .magin {
-      font-size: 30px;
-      margin-right: 10px; }
-      .colum-mb .magin p {
-        text-align: justify;
-        font-size: 36px;
-        text-align: center; }
+    .colum-mb .today {
+      font-size: 36px;
+      font-weight: 100; }
+      .colum-mb .today .magin {
+        font-size: 30px;
+        margin-right: 10px; }
+        .colum-mb .today .magin p {
+          text-align: justify;
+          font-size: 36px;
+          text-align: center; }
     .colum-mb .size {
       font-size: 14px;
       text-align: center; }
@@ -139,9 +145,12 @@
     width: 100%;
     text-align: center;
     margin-top: 10px; }
-    .members-mb .magin {
-      font-size: 30px;
-      margin-right: 10px; }
+    .members-mb .today {
+      font-size: 36px;
+      font-weight: 100; }
+      .members-mb .today .magin {
+        font-size: 30px;
+        margin-right: 10px; }
     .members-mb .size {
       font-size: 14px;
       text-align: center; }
@@ -174,13 +183,16 @@
     width: 100%;
     text-align: center;
     margin-top: 10px; }
-    .customers-mb .magin {
-      font-size: 30px;
-      margin-right: 10px; }
-      .customers-mb .magin p {
-        text-align: justify;
-        font-size: 36px;
-        text-align: center; }
+    .customers-mb .today {
+      font-size: 36px;
+      font-weight: 100; }
+      .customers-mb .today .magin {
+        font-size: 30px;
+        margin-right: 10px; }
+        .customers-mb .today .magin p {
+          text-align: justify;
+          font-size: 36px;
+          text-align: center; }
     .customers-mb .size {
       font-size: 14px;
       text-align: center; }
@@ -215,13 +227,16 @@
     width: 100%;
     text-align: center;
     margin-top: 10px; }
-    .project-mb .magin {
-      font-size: 30px;
-      margin-right: 10px; }
-      .project-mb .magin p {
-        text-align: justify;
-        font-size: 36px;
-        text-align: center; }
+    .project-mb .today {
+      font-size: 36px;
+      font-weight: 100; }
+      .project-mb .today .magin {
+        font-size: 30px;
+        margin-right: 10px; }
+        .project-mb .today .magin p {
+          text-align: justify;
+          font-size: 36px;
+          text-align: center; }
     .project-mb .size {
       font-size: 14px;
       text-align: center; }
@@ -249,6 +264,11 @@
 
   .our-customer {
     padding: 0 6.8%; }
+    .our-customer .our {
+      color: white;
+      text-align: center;
+      font-size: 36px;
+      font-weight: 100; }
     .our-customer .designer {
       padding: 0 2%; }
     .our-customer .total {
@@ -296,6 +316,7 @@
   .members,
   .customers,
   .project,
+  .customers-mb,
   .footer {
     display: none; }
 
@@ -350,12 +371,15 @@
   .mask-mb {
     width: 100%;
     text-align: center; }
-    .mask-mb .magin {
-      font-size: 20px;
-      margin-right: 10px; }
-      .mask-mb .magin p {
-        text-align: justify center;
-        font-size: 24px; }
+    .mask-mb .today {
+      font-size: 24px;
+      font-weight: 100; }
+      .mask-mb .today .magin {
+        font-size: 20px;
+        margin-right: 10px; }
+        .mask-mb .today .magin p {
+          text-align: justify center;
+          font-size: 24px; }
     .mask-mb .size {
       font-size: 13px;
       text-align: center; }
@@ -382,13 +406,16 @@
     width: 100%;
     text-align: center;
     margin-top: 10px; }
-    .colum-mb .magin {
-      font-size: 20px;
-      margin-right: 10px; }
-      .colum-mb .magin p {
-        text-align: justify;
-        font-size: 24px;
-        text-align: center; }
+    .colum-mb .today {
+      font-size: 24px;
+      font-weight: 100; }
+      .colum-mb .today .magin {
+        font-size: 20px;
+        margin-right: 10px; }
+        .colum-mb .today .magin p {
+          text-align: justify;
+          font-size: 24px;
+          text-align: center; }
     .colum-mb .size {
       font-size: 14px;
       text-align: center; }
@@ -416,9 +443,12 @@
     width: 100%;
     text-align: center;
     margin-top: 10px; }
-    .members-mb .magin {
-      font-size: 20px;
-      margin-right: 10px; }
+    .members-mb .today {
+      font-size: 24px;
+      font-weight: 100; }
+      .members-mb .today .magin {
+        font-size: 20px;
+        margin-right: 10px; }
     .members-mb .size {
       font-size: 14px;
       text-align: center; }
@@ -448,6 +478,11 @@
 
   .our-customer {
     padding: 0 7%; }
+    .our-customer .our {
+      color: white;
+      text-align: center;
+      font-size: 24px;
+      font-weight: 100; }
     .our-customer .total {
       text-align: left;
       color: white; }
@@ -479,13 +514,16 @@
     width: 100%;
     text-align: center;
     margin-top: 10px; }
-    .project-mb .magin {
-      font-size: 20px;
-      margin-right: 10px; }
-      .project-mb .magin p {
-        text-align: justify;
-        font-size: 36px;
-        text-align: center; }
+    .project-mb .today {
+      font-size: 24px;
+      font-weight: 100; }
+      .project-mb .today .magin {
+        font-size: 20px;
+        margin-right: 10px; }
+        .project-mb .today .magin p {
+          text-align: justify;
+          font-size: 36px;
+          text-align: center; }
     .project-mb .size {
       font-size: 14px;
       text-align: center; }

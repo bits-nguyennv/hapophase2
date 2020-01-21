@@ -94,11 +94,15 @@
       font-size: 14px; }
     .mask .right .size2 {
       font-size: 13px; }
-    .mask .right .magin {
-      margin-right: 10px;
-      font-size: 36px; }
-      .mask .right .magin p {
-        font-size: 48px; }
+    .mask .right .today {
+      font-size: 48px;
+      font-weight: 100; }
+      .mask .right .today .magin {
+        margin-right: 10px;
+        font-size: 36px; }
+        .mask .right .today .magin p {
+          font-size: 48px;
+          font-weight: 100; }
 
 .colum {
   width: 100%; }
@@ -108,11 +112,14 @@
     text-align: left;
     padding-left: 30px;
     text-align: justify; }
-    .colum .left .magin {
-      margin-right: 10px;
-      font-size: 36px; }
-      .colum .left .magin p {
-        font-size: 48px; }
+    .colum .left .today {
+      font-size: 48px;
+      font-weight: 100; }
+      .colum .left .today .magin {
+        margin-right: 10px;
+        font-size: 36px; }
+        .colum .left .today .magin p {
+          font-size: 48px; }
     .colum .left .size {
       font-size: 14px; }
     .colum .left .size2 {
@@ -171,11 +178,14 @@
       font-size: 14px; }
     .members .left .size2 {
       font-size: 13px; }
-    .members .left .magin {
-      margin-right: 10px;
-      font-size: 36px; }
-      .members .left .magin p {
-        font-size: 48px; }
+    .members .left .today {
+      font-size: 48px;
+      font-weight: 100; }
+      .members .left .today .magin {
+        margin-right: 10px;
+        font-size: 36px; }
+        .members .left .today .magin p {
+          font-size: 48px; }
     .members .left .ti-check-box {
       color: #008000;
       margin-right: 19px;
@@ -211,11 +221,14 @@
       font-size: 13px; }
       .customers .right .size2 i {
         font-size: 18px; }
-    .customers .right .magin {
-      margin-right: 10px;
-      font-size: 36px; }
-      .customers .right .magin p {
-        font-size: 48px; }
+    .customers .right .today {
+      font-size: 48px;
+      font-weight: 100; }
+      .customers .right .today .magin {
+        margin-right: 10px;
+        font-size: 36px; }
+        .customers .right .today .magin p {
+          font-size: 48px; }
     .customers .right .icon {
       color: #008000;
       margin-right: 19px; }
@@ -238,7 +251,8 @@
   .our-customer .our {
     color: white;
     text-align: center;
-    font-size: 48px; }
+    font-size: 48px;
+    font-weight: 100; }
   .our-customer .carousel-indicators {
     margin-top: 0px;
     border-radius: 40px;
@@ -285,11 +299,14 @@
     text-align: justify;
     width: 50%;
     margin-top: 20px; }
-    .project .left .magin {
-      margin-right: 10px;
-      font-size: 36px; }
-      .project .left .magin p {
-        font-size: 48px; }
+    .project .left .today {
+      font-size: 48px;
+      font-weight: 100; }
+      .project .left .today .magin {
+        margin-right: 10px;
+        font-size: 36px; }
+        .project .left .today .magin p {
+          font-size: 48px; }
     .project .left .size {
       font-size: 14px; }
     .project .left .size2 {
