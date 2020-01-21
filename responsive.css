@@ -63,7 +63,7 @@
       .header .start p {
         margin-top: 5px;
         font-size: 16px; }
-    .header .btn:focus, .header .btn:active {
+    .header .start:focus, .header .start:active {
       outline: 0 !important;
       box-shadow: none; }
 
@@ -92,7 +92,7 @@
       text-align: justify;
       font-size: 13px;
       margin-top: -6px; }
-    .mask-mb .btn {
+    .mask-mb .start {
       width: 144px;
       height: 45px;
       font-size: 16px;
@@ -127,7 +127,7 @@
       text-align: right;
       background: url(dailyReport.jpg) no-repeat;
       background-size: 100% 100%; }
-    .colum-mb .btn {
+    .colum-mb .start {
       width: 144px;
       height: 45px;
       font-size: 16px;
@@ -137,7 +137,7 @@
       text-align: center;
       margin-bottom: 20px;
       border: none; }
-      .colum-mb .btn:focus, .colum-mb .btn:active {
+      .colum-mb .start:focus, .colum-mb .start:active {
         outline: 0 !important;
         box-shadow: none; }
 
@@ -166,7 +166,7 @@
       text-align: right;
       background: url(page1.png) no-repeat;
       background-size: 100% 100%; }
-    .members-mb .btn {
+    .members-mb .start {
       width: 144px;
       height: 45px;
       font-size: 16px;
@@ -175,7 +175,7 @@
       background-image: linear-gradient(to right, #008000, #b4ec51);
       text-align: center;
       border: none; }
-      .members-mb .btn:focus, .members-mb .btn:active {
+      .members-mb .start:focus, .members-mb .start:active {
         outline: 0 !important;
         box-shadow: none; }
 
@@ -209,7 +209,7 @@
       background: url(dailyReport.jpg) no-repeat;
       background-size: 100% 100%;
       margin-top: 20px; }
-    .customers-mb .btn {
+    .customers-mb .start {
       width: 144px;
       height: 45px;
       font-size: 16px;
@@ -219,7 +219,7 @@
       margin-bottom: 20px;
       text-align: center;
       border: none; }
-      .customers-mb .btn:focus, .customers-mb .btn:active {
+      .customers-mb .start:focus, .customers-mb .start:active {
         outline: 0 !important;
         box-shadow: none; }
 
@@ -247,7 +247,7 @@
       text-align: right;
       background: url(dailyReport.jpg) no-repeat;
       background-size: 100% 100%; }
-    .project-mb .btn {
+    .project-mb .start {
       font-size: 16px;
       color: white;
       border-radius: 25px;
@@ -258,7 +258,7 @@
       height: 45px;
       margin-bottom: 40px;
       border: none; }
-      .project-mb .btn:focus, .project-mb .btn:active {
+      .project-mb .start:focus, .project-mb .start:active {
         outline: 0 !important;
         box-shadow: none; }
 
@@ -364,7 +364,7 @@
       border-radius: 3em;
       background-image: linear-gradient(to right, #008000, #b4ec51);
       text-align: center; }
-    .header .btn:focus, .header .btn:active {
+    .header .start:focus, .header .start:active {
       outline: 0 !important;
       box-shadow: none; }
 
@@ -392,7 +392,7 @@
       font-size: 13px; }
       .mask-mb .right p {
         margin-top: 20px; }
-    .mask-mb .btn {
+    .mask-mb .start {
       width: 144px;
       height: 45px;
       font-size: 16px;
@@ -429,7 +429,7 @@
       height: 292px;
       width: 100%;
       margin-top: 20px; }
-    .colum-mb .btn {
+    .colum-mb .start {
       width: 144px;
       height: 45px;
       font-size: 16px;
@@ -466,7 +466,7 @@
       height: 340px;
       background-size: 100% 100%;
       margin-bottom: 10px; }
-    .members-mb .btn {
+    .members-mb .start {
       width: 144px;
       height: 45px;
       font-size: 16px;
@@ -536,7 +536,7 @@
       height: 298px;
       width: 100%;
       margin-top: 10px; }
-    .project-mb .btn {
+    .project-mb .start {
       font-size: 16px;
       color: white;
       border-radius: 25px;
@@ -580,24 +580,24 @@
       width: 100px;
       height: 100px;
       border-radius: 100px;
-      border: 2px solid #FFFFFF; }
+      border: 2px solid white; }
       .oval-mb .circle .icon {
         font-size: 36px;
-        color: #FFFFFF; }
+        color: white; }
     .oval-mb .cle {
       box-sizing: border-box;
       height: 50px;
       width: 50px;
       border-radius: 25px;
-      border: 2px solid #FFFFFF;
+      border: 2px solid white;
       background-color: #7CB342;
       text-align: center;
-      color: #FFFFFF;
+      color: white;
       margin-top: -25px; }
       .oval-mb .cle span {
         font-size: 24px; }
     .oval-mb p {
-      color: #FFFFFF; }
+      color: white; }
     .oval-mb .carousel-indicators {
       margin-top: 0px;
       border-radius: 40px;
@@ -610,6 +610,6 @@
         -webkit-border-radius: 50px;
         --border-radius: 50px;
         border-radius: 100px;
-        border: 2px solid #FFFFFF; } }
+        border: 2px solid white; } }
 
 /*# sourceMappingURL=responsive.css.map */

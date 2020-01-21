@@ -1,3 +1,5 @@
+@import "variables";
+
 @media only screen and (max-width:768px) {
     .mask,
     .colum,
@@ -8,7 +10,7 @@
     .footer-mb {
         display: none;
     }
-    
+
     .mask-mb,
     .colum-mb,
     .oval,
@@ -18,9 +20,6 @@
     .footer {
         display: block;
     }
-
-    $green: #008000;
-    $light_green:#8bc34a;
 
     .header {
         height: 425px;
@@ -82,7 +81,7 @@
             width: 144px;
             height: 45px;
             size: 2em;
-            color: white;
+            color: $white;
             margin-right: -1em;
             border-radius: 3em; 
             background-image: linear-gradient(to right ,$green,#b4ec51 );
@@ -95,7 +94,7 @@
             }
         }
 
-        .btn {
+        .start {
 
             &:focus, &:active {
                outline: 0 !important;
@@ -142,11 +141,11 @@
             margin-top: -6px;
         }
 
-        .btn {
+        .start {
             width: 144px;
             height: 45px;
             font-size: 16px;
-            color: white;
+            color: $white;
             border-radius: 25px; 
             background-image: linear-gradient(to right ,$green,#b4ec51 );
             margin-top: 10px;
@@ -192,11 +191,11 @@
             background-size: 100% 100%;
         }
 
-        .btn {
+        .start {
             width: 144px;
             height: 45px;
             font-size: 16px;
-            color: white;
+            color: $white;
             border-radius: 25px; 
             background-image: linear-gradient(to right ,$green,#b4ec51 );
             text-align: center;
@@ -248,11 +247,11 @@
             background-size: 100% 100%;   
         }
 
-        .btn {
+        .start {
             width: 144px;
             height: 45px;
             font-size: 16px;
-            color: white;
+            color: $white;
             border-radius: 25px; 
             background-image: linear-gradient(to right ,$green,#b4ec51 );
             text-align: center;
@@ -310,11 +309,11 @@
             margin-top: 20px;
         }
 
-        .btn {
+        .start {
             width: 144px;
             height: 45px;
             font-size: 16px;
-            color: white;
+            color: $white;
             border-radius: 25px; 
             background-image: linear-gradient(to right ,$green,#b4ec51 );
             margin-bottom: 20px;
@@ -365,9 +364,9 @@
             background-size: 100% 100%;
         }
         
-        .btn {
+        .start {
             font-size: 16px;
-            color: white;
+            color: $white;
             border-radius: 25px; 
             background-image: linear-gradient(to right ,$green,#b4ec51 );
             border-radius: 25px;  
@@ -388,7 +387,7 @@
         padding:0 6.8%;   
 
         .our {
-            color: white;
+            color: $white;
             text-align: center;
             font-size: 36px;
             font-weight: 100;
@@ -400,7 +399,7 @@
 
         .total {
             text-align: left;
-            color: white;
+            color: $white;
 
             div {
                 font-size: 18px;
@@ -409,7 +408,7 @@
 
             i {
                 font-size: 64px;
-                color: white;
+                color: $white;
 
                 .ti-quote-left {
                     padding-right: 40px;
@@ -424,7 +423,7 @@
         }
 
         p {
-            color: white;
+            color: $white;
         }   
     }
 
@@ -445,7 +444,7 @@
             }
 
             p {
-                color: white;
+                color: $white;
                 font-size: 13px;
             }
 
@@ -484,9 +483,6 @@
     .footer-mb {
         display: block;
     }
-
-    $green: #008000;
-    $light_green: #8bc34a;
 
     .header {
         height: 300px;
@@ -535,14 +531,14 @@
             width: 144px;
             height: 40px;
             size: 2em;
-            color: white;
+            color: $white;
             margin-right: -2px;
             border-radius: 3em; 
             background-image: linear-gradient(to right ,$green,#b4ec51 );
             text-align: center;
         }
 
-        .btn {
+        .start {
 
             &:focus, &:active {
                outline: 0 !important;
@@ -590,11 +586,11 @@
             }
         }
 
-        .btn{
+        .start {
             width: 144px;
             height: 45px;
             font-size: 16px;
-            color: white;
+            color: $white;
             border-radius: 25px; 
             background-image: linear-gradient(to right ,$green,#b4ec51 );
             margin-top: 10px;
@@ -642,11 +638,11 @@
             margin-top: 20px;
         }
 
-        .btn {
+        .start {
             width: 144px;
             height: 45px;
             font-size: 16px;
-            color: white;
+            color: $white;
             border-radius: 25px; 
             background-image: linear-gradient(to right ,$green,#b4ec51 );
             margin-top: 15px;
@@ -694,11 +690,11 @@
             margin-bottom: 10px; 
         }
 
-        .btn {
+        .start {
             width: 144px;
             height: 45px;
             font-size: 16px;
-            color: white;
+            color: $white;
             border-radius: 25px; 
             background-image: linear-gradient(to right ,$green,#b4ec51 );
             text-align: center;
@@ -710,7 +706,7 @@
         padding:0 7%;   
 
         .our {
-            color: white;
+            color: $white;
             text-align: center;
             font-size: 24px;
             font-weight: 100;
@@ -718,7 +714,7 @@
 
         .total {
             text-align: left;
-            color: white;
+            color: $white;
 
             div {
                 font-size: 14px;
@@ -727,7 +723,7 @@
 
             i {
                 font-size: 48px;
-                color: white;
+                color: $white;
             }
 
             .ti-quote-right {
@@ -739,13 +735,13 @@
             padding: 0 2%;
 
             span {
-                color: white; 
+                color: $white; 
                 font-size: 13px;
                 margin-left: 10px;
             }
 
             p {
-                color: white; 
+                color: $white; 
                 font-size: 10px;
                 margin-left: 16px;
                 margin-top: 0;
@@ -753,7 +749,7 @@
         }
 
         p {
-            color: white;
+            color: $white;
             text-align: justify;
             margin-top: 50px;
         }   
@@ -798,9 +794,9 @@
             margin-top: 10px;
         }
 
-        .btn {
+        .start {
             font-size: 16px;
-            color: white;
+            color: $white;
             border-radius: 25px; 
             background-image: linear-gradient(to right ,$green,#b4ec51 );
             border-radius: 25px;  
@@ -817,7 +813,7 @@
         margin-bottom: 10px;
         
         .row {
-         padding: 30px;
+           padding: 30px;
         }
 
         .color {
@@ -828,7 +824,7 @@
             }
 
             p {
-                color: white;
+                color: $white;
                 font-size: 10px;
             }
 
@@ -848,7 +844,7 @@
         }
 
         .copy {
-            color: white;
+            color: $white;
             font-size: 10px;
             margin-top: 50px;
         }
@@ -862,11 +858,11 @@
             width: 100px;
             height: 100px;;
             border-radius: 100px;
-            border: 2px solid #FFFFFF;    
+            border: 2px solid $white;    
 
             .icon {          
                 font-size: 36px;
-                color: #FFFFFF;
+                color: $white;
             }
         }
 
@@ -875,10 +871,10 @@
             height: 50px;
             width: 50px;
             border-radius:25px;
-            border: 2px solid #FFFFFF;
+            border: 2px solid $white;
             background-color: #7CB342;
             text-align: center;
-            color: #FFFFFF;
+            color: $white;
             margin-top: -25px;
 
             span {
@@ -887,14 +883,14 @@
         }
 
         p {
-            color: #FFFFFF;
+            color: $white;
         }
         
         .carousel-indicators {
             margin-top: 0px;
             border-radius: 40px;
             margin-bottom: -10px;
-            color: white;
+            color: $white;
 
             li {
                 width: 10px;
@@ -903,8 +899,8 @@
                 -webkit-border-radius: 50px;
                 --border-radius: 50px;
                 border-radius: 100px;
-                border: 2px solid #FFFFFF;
+                border: 2px solid $white;
             }
         }
     }  
-}                    
+}   

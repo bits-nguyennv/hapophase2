@@ -56,7 +56,7 @@
     size: 2em;
     color: white;
     border-radius: 3em;
-    background-image: linear-gradient(to right, green, #b4ec51);
+    background-image: linear-gradient(to right, #008000, #b4ec51);
     text-align: center;
     outline: none;
     border: none;
@@ -74,16 +74,16 @@
     width: 100%;
     margin-top: 2em;
     background: url(til.png) no-repeat center; }
-  .mask .btn {
+  .mask .start {
     width: 195px;
     height: 50px;
     font-size: 16px;
     color: white;
     border-radius: 25px;
-    background-image: linear-gradient(to right, green, #b4ec51);
+    background-image: linear-gradient(to right, #008000, #b4ec51);
     text-align: center;
     border: none; }
-    .mask .btn:focus, .mask .btn:active {
+    .mask .start:focus, .mask .start:active {
       outline: 0 !important;
       box-shadow: none; }
   .mask .right {
@@ -124,16 +124,16 @@
       font-size: 14px; }
     .colum .left .size2 {
       font-size: 13px; }
-  .colum .btn {
+  .colum .start {
     width: 195px;
     height: 50px;
     font-size: 16px;
     color: white;
     border-radius: 25px;
-    background-image: linear-gradient(to right, green, #b4ec51);
+    background-image: linear-gradient(to right, #008000, #b4ec51);
     text-align: center;
     border: none; }
-    .colum .btn:focus, .colum .btn:active {
+    .colum .start:focus, .colum .start:active {
       outline: 0 !important;
       box-shadow: none; }
   .colum .right {
@@ -143,29 +143,29 @@
 
 .oval {
   padding: 66.5px 0;
-  background-image: linear-gradient(to right, green, #b4ec51); }
+  background-image: linear-gradient(to right, #008000, #b4ec51); }
   .oval .circle {
     width: 100px;
     height: 100px;
     border-radius: 100px;
-    border: 2px solid #FFFFFF; }
+    border: 2px solid white; }
     .oval .circle .icon {
       font-size: 36px;
-      color: #FFFFFF; }
+      color: white; }
   .oval .cle {
     box-sizing: border-box;
     height: 50px;
     width: 50px;
     border-radius: 25px;
-    border: 2px solid #FFFFFF;
+    border: 2px solid white;
     background-color: #7CB342;
     text-align: center;
-    color: #FFFFFF;
+    color: white;
     margin-top: -25px; }
     .oval .cle span {
       font-size: 24px; }
   .oval p {
-    color: #FFFFFF; }
+    color: white; }
 
 .members {
   width: 100%; }
@@ -190,16 +190,16 @@
       color: #008000;
       margin-right: 19px;
       font-size: 18px; }
-  .members .btn {
+  .members .start {
     width: 195px;
     height: 50px;
     font-size: 16px;
     color: white;
     border-radius: 25px;
-    background-image: linear-gradient(to right, green, #b4ec51);
+    background-image: linear-gradient(to right, #008000, #b4ec51);
     text-align: center;
     border: none; }
-    .members .btn:focus, .members .btn:active {
+    .members .start:focus, .members .start:active {
       outline: 0 !important;
       box-shadow: none; }
   .members .right {
@@ -232,16 +232,16 @@
     .customers .right .icon {
       color: #008000;
       margin-right: 19px; }
-    .customers .right .btn {
+    .customers .right .start {
       width: 195px;
       height: 50px;
       font-size: 16px;
       color: white;
       border-radius: 25px;
-      background-image: linear-gradient(to right, green, #b4ec51);
+      background-image: linear-gradient(to right, #008000, #b4ec51);
       text-align: center;
       border: none; }
-      .customers .right .btn:focus, .customers .right .btn:active {
+      .customers .right .start:focus, .customers .right .start:active {
         outline: 0 !important;
         box-shadow: none; }
 
@@ -265,7 +265,7 @@
       -webkit-border-radius: 50px;
       --border-radius: 50px;
       border-radius: 100px;
-      border: 2px solid #FFFFFF; }
+      border: 2px solid white; }
   .our-customer .total {
     text-align: left;
     color: white; }
@@ -311,16 +311,16 @@
       font-size: 14px; }
     .project .left .size2 {
       font-size: 13px; }
-    .project .left .btn {
+    .project .left .start {
       width: 195px;
       height: 50px;
       font-size: 16px;
       color: white;
       border-radius: 25px;
-      background-image: linear-gradient(to right, green, #b4ec51);
+      background-image: linear-gradient(to right, #008000, #b4ec51);
       text-align: center;
       border: none; }
-      .project .left .btn:focus, .project .left .btn:active {
+      .project .left .start:focus, .project .left .start:active {
         outline: 0 !important;
         box-shadow: none; }
   .project .right {

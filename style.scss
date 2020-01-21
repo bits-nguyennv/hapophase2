@@ -1,3 +1,4 @@
+@import "variables";
 .mask-mb,
 .colum-mb,
 .oval-mb,
@@ -7,9 +8,6 @@
 .footer-mb {
     display: none;
 }
-
-$green: #008000;
-$light_green: #8bc34a;
 
 .header {
     background-size: cover;
@@ -82,9 +80,9 @@ $light_green: #8bc34a;
         width: 192px;
         height: 50px;
         size: 2em;
-        color: white;
+        color: $white;
         border-radius: 3em; 
-        background-image: linear-gradient(to right ,green,#b4ec51 );
+        background-image: linear-gradient(to right ,$green,#b4ec51 );
         text-align: center;
         outline: none;
         border: none;
@@ -114,13 +112,13 @@ $light_green: #8bc34a;
         background: url(til.png) no-repeat center;
     }
 
-    .btn {
+    .start {
         width: 195px;
         height: 50px;
         font-size: 16px;
-        color: white;
+        color: $white;
         border-radius: 25px; 
-        background-image: linear-gradient(to right ,green,#b4ec51 );
+        background-image: linear-gradient(to right ,$green,#b4ec51 );
         text-align: center;
         border: none;
 
@@ -193,13 +191,13 @@ $light_green: #8bc34a;
         }
     }
 
-    .btn {
+    .start {
         width: 195px;
         height: 50px;
         font-size: 16px;
-        color: white;
+        color: $white;
         border-radius: 25px; 
-        background-image: linear-gradient(to right ,green,#b4ec51 );
+        background-image: linear-gradient(to right ,$green,#b4ec51 );
         text-align: center;
         border: none;
 
@@ -218,17 +216,17 @@ $light_green: #8bc34a;
 
 .oval {
     padding: 66.5px 0;
-    background-image: linear-gradient(to right ,green,#b4ec51 );
+    background-image: linear-gradient(to right ,$green,#b4ec51 );
 
     .circle {
         width: 100px;
         height: 100px;;
         border-radius: 100px;
-        border: 2px solid #FFFFFF;    
+        border: 2px solid $white;    
 
         .icon {          
             font-size: 36px;
-            color: #FFFFFF;
+            color: $white;
         }
     }
 
@@ -237,10 +235,10 @@ $light_green: #8bc34a;
         height: 50px;
         width: 50px;
         border-radius:25px;
-        border: 2px solid #FFFFFF;
+        border: 2px solid $white;
         background-color: #7CB342;
         text-align: center;
-        color: #FFFFFF;
+        color: $white;
         margin-top: -25px;
 
         span {
@@ -249,7 +247,7 @@ $light_green: #8bc34a;
     }
 
     p {
-        color: #FFFFFF;
+        color: $white;
     }
 }  
 
@@ -291,13 +289,13 @@ $light_green: #8bc34a;
         }
     }
 
-    .btn {
+    .start {
         width: 195px;
         height: 50px;
         font-size: 16px;
-        color: white;
+        color: $white;
         border-radius: 25px; 
-        background-image: linear-gradient(to right ,green,#b4ec51 );
+        background-image: linear-gradient(to right ,$green,#b4ec51 );
         text-align: center;
         border: none;
 
@@ -357,13 +355,13 @@ $light_green: #8bc34a;
             margin-right: 19px;  
         }
 
-        .btn {
+        .start {
             width: 195px;
             height: 50px;
             font-size: 16px;
-            color: white;
+            color: $white;
             border-radius: 25px; 
-            background-image: linear-gradient(to right ,green,#b4ec51 );
+            background-image: linear-gradient(to right ,$green,#b4ec51 );
             text-align: center;
             border: none;
 
@@ -380,7 +378,7 @@ $light_green: #8bc34a;
     background: url(rectangle3.png) no-repeat;
 
     .our {
-        color: white;
+        color: $white;
         text-align: center;
         font-size: 48px;
         font-weight: 100;
@@ -390,7 +388,7 @@ $light_green: #8bc34a;
         margin-top: 0px;
         border-radius: 40px;
         margin-bottom: -10px;
-        color: white;
+        color: $white;
 
         li {
             width: 10px;
@@ -399,13 +397,13 @@ $light_green: #8bc34a;
             -webkit-border-radius: 50px;
             --border-radius: 50px;
             border-radius: 100px;
-            border: 2px solid #FFFFFF;
+            border: 2px solid $white;
         }
     }
 
     .total {
         text-align: left;
-        color: white;
+        color: $white;
 
         div {
             font-size: 18px;
@@ -414,7 +412,7 @@ $light_green: #8bc34a;
 
         i {
             font-size: 72px;
-            color: white;
+            color: $white;
 
             .ti-quote-left {
                 padding-right: 50px;
@@ -433,19 +431,19 @@ $light_green: #8bc34a;
     .designer {
 
         span {
-            color: white; 
+            color: $white; 
             font-size: 13px;
             margin-left: 10px;
         }
 
         p {
-            color: white; 
+            color: $white; 
             font-size: 10px;
             margin-left: 16px;
         }
     }
         p {
-            color: white;
+            color: $white;
         }
 }   
 
@@ -479,13 +477,13 @@ $light_green: #8bc34a;
             font-size: 13px;
         }
 
-        .btn {
+        .start {
             width: 195px;
             height: 50px;
             font-size: 16px;
-            color: white;
+            color: $white;
             border-radius: 25px; 
-            background-image: linear-gradient(to right ,green,#b4ec51 );
+            background-image: linear-gradient(to right ,$green,#b4ec51 );
             text-align: center;
             border: none;
 
@@ -519,7 +517,7 @@ $light_green: #8bc34a;
         }
 
         p {
-            color: white;
+            color: $white;
             font-size: 16px;
         }
 
