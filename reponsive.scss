@@ -35,7 +35,7 @@
             margin-bottom: 30px;
 
             img {
-                height: 47px;
+                height: 42px;
                 width: 144px;
             }
         }  
@@ -116,7 +116,11 @@
     .mask-mb {
         width: 100%;
         text-align: center;
-        margin-top: 10px;      
+        margin-top: 10px;   
+        box-shadow: 0 4px 8px #888888;
+        padding: 50px 50px;
+    
+      
         
         .today {
             font-size: 36px;
@@ -143,6 +147,8 @@
             text-align: right;
             background: url(til.jpg) no-repeat;
             background-size: 100% 100%;
+            width: 100%;
+
         }
 
         .right {
@@ -157,7 +163,7 @@
             color: $white;
             border-radius: 25px; 
             background-image: linear-gradient(to right ,$green,#b4ec51 );
-            margin-top: 10px;
+            margin-top: 20px;
             text-align: center;
             border: none;
 
@@ -172,6 +178,7 @@
         width: 100%;
         text-align: center;
         margin-top: 10px;
+        padding: 50px 50px;
 
         .today {
             font-size: 36px;
@@ -231,6 +238,7 @@
         width: 100%;
         text-align: center;
         margin-top: 10px;
+        padding: 50px 50px;
 
         .today {
             font-size: 36px;
@@ -273,6 +281,7 @@
             background-image: linear-gradient(to right ,$green,#b4ec51 );
             text-align: center;
             border: none;
+            margin-top: 40px;
 
             &:focus, &:active {
                 outline: 0 !important;
@@ -290,6 +299,7 @@
         width: 100%;
         text-align: center;
         margin-top: 10px;
+        padding: 50px 50px;
 
         .today {
             font-size: 36px;
@@ -357,6 +367,7 @@
         width: 100%;
         text-align: center;
         margin-top: 10px;
+        padding: 50px 50px;
 
         .today {
             font-size: 36px;
@@ -400,6 +411,7 @@
             padding: 13px 28px 13px 28px;
             margin-bottom: 40px;
             border: none;
+            margin-top: 20px;
 
             &:focus, &:active {
                 outline: 0 !important;
@@ -413,9 +425,8 @@
         }
     }
 
-    .our-customer {
-        padding:0 6.8%;   
-
+    .our-customer { 
+         padding: 50px 50px;     
         .our {
             color: $white;
             text-align: center;
@@ -464,6 +475,7 @@
         width: 100%;
         background: #283238;
         margin-bottom: 10px;
+        padding: 30px 30px;
 
         .row {
          padding: 30px;
@@ -598,6 +610,7 @@
     .mask-mb {
         width: 100%;
         text-align: center;
+        padding: 30px 30px;
         
         .today {
             font-size: 24px;
@@ -654,6 +667,7 @@
         width: 100%;
         text-align: center;
         margin-top: 10px;
+        padding: 30px 30px;
 
         .today {
             font-size: 24px;
@@ -672,7 +686,7 @@
         }
 
         .size {
-            font-size: 14px;
+            font-size: 13px;
             text-align: center;
         }
 
@@ -710,6 +724,7 @@
         width: 100%;
         text-align: center;
         margin-top: 10px;
+        padding: 30px 30px;
 
         .today {
             font-size: 24px;
@@ -722,7 +737,7 @@
         }
 
         .size {
-            font-size: 14px;
+            font-size: 13px;
             text-align: center;
         }
 
@@ -762,8 +777,7 @@
         }
     }
 
-    .our-customer {
-        padding:0 7%;   
+    .our-customer {  
 
         .our {
             color: $white;
@@ -799,7 +813,7 @@
         }
 
         .designer {
-            padding: 0 2%;
+            padding: 0 1%;
 
             span {
                 color: $white; 
@@ -827,7 +841,7 @@
     .project-mb {
         width: 100%;
         text-align: center;
-        margin-top: 10px;
+        padding: 30px 20px;
 
         .today {
             font-size: 24px;
@@ -846,7 +860,7 @@
         }
 
         .size {
-            font-size: 14px;
+            font-size: 13px;
             text-align: center;
         }
 
@@ -924,7 +938,7 @@
     }
 
     .oval-mb {
-        padding: 66.5px 0;
+        padding: 30px 30px;
         background-image: linear-gradient(to right ,$green,#b4ec51 );
 
         .circle {
