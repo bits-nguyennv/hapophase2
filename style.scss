@@ -10,27 +10,32 @@
 }
 
 .header {
-    background-size: cover;
-    background-image: url(banner.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 700px;
-    outline: none; 
+
+    background : {
+        size: cover;
+        image: url(banner.jpg);
+        repeat: no-repeat;
+    }
+    height: 873px;
 
         .sign {
-            padding-right: 300px;
+            padding-right: 391px;
 
             .sign-in {
                 margin-left: 5px;
                 text-align: center;
-                margin-top: 20px;
-                width: 82px;
-                height: 36px;
+                margin-top: 41px;
                 color: $light_green;
                 border: 2px solid $light_green;  
                 border-radius: 100px; 
                 font-size: 12px;
-                padding-top: 6px;
+                padding: 8px 18px 8px 18px;
+            
+                
+                a {
+                    text-decoration: none;
+                    color: $light_green;
+                }
             }
         } 
 
@@ -40,19 +45,18 @@
 
             p {
                 font-size: 12px;
-                margin-top: 20px;
-                padding-top: 6px;
+                margin-top: 50px;
+                letter-spacing: 1px;
             }
         }   
 
     .hapo {
         text-align: center; 
         color: $green;
-        margin-top: 100px;
+        margin-top: 155px;
+        margin-bottom: 48px;
 
        img {
-           height:77px;
-           width: 256px;
            margin-left: 8px;
         }
     }
@@ -63,7 +67,7 @@
 
     .iteam {
         font-size: 48px; 
-        padding: 0 80px 0 80px;
+        padding: 0 140px 0 140px;
     }
 
     .word {
@@ -74,12 +78,12 @@
 
         i {
             font-size: 18px;
+            margin-top: 48px;
+            margin-bottom: 34px;
         }
     }
 
     .start {
-        width: 192px;
-        height: 50px;
         size: 2em;
         color: $white;
         border-radius: 3em; 
@@ -87,11 +91,17 @@
         text-align: center;
         outline: none;
         border: none;
-        margin-top: 10px;
+        margin-top: 20px;
+        padding: 15px 48px 14px 48px;
 
         p {
             margin-top: 5px;
             font-size: 16px;
+        }
+
+        a {
+            text-decoration: none;
+            color: $white;
         }
     }
 
@@ -114,8 +124,7 @@
     }
 
     .start {
-        width: 195px;
-        height: 50px;
+        padding: 15px 48px 14px 48px;
         font-size: 16px;
         color: $white;
         border-radius: 25px; 
@@ -126,6 +135,10 @@
         &:focus, &:active {
             outline: 0 !important;
             box-shadow: none;
+        }
+        a {
+            text-decoration: none;
+            color: $white;
         }
     } 
 
@@ -193,8 +206,7 @@
     }
 
     .start {
-        width: 195px;
-        height: 50px;
+        padding: 15px 48px 14px 48px;
         font-size: 16px;
         color: $white;
         border-radius: 25px; 
@@ -205,6 +217,11 @@
         &:focus, &:active {
             outline: 0 !important;
             box-shadow: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: $white;
         }
     } 
 
@@ -291,8 +308,7 @@
     }
 
     .start {
-        width: 195px;
-        height: 50px;
+        padding: 15px 48px 14px 48px;
         font-size: 16px;
         color: $white;
         border-radius: 25px; 
@@ -303,6 +319,11 @@
         &:focus, &:active {
             outline: 0 !important;
             box-shadow: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: $white;
         }
     }
 
@@ -357,8 +378,7 @@
         }
 
         .start {
-            width: 195px;
-            height: 50px;
+            padding: 15px 48px 14px 48px;
             font-size: 16px;
             color: $white;
             border-radius: 25px; 
@@ -369,6 +389,11 @@
             &:focus, &:active {
                 outline: 0 !important;
                 box-shadow: none;
+            }
+
+            a {
+                text-decoration: none;
+                color: $white;
             }
         } 
     }
@@ -392,12 +417,9 @@
         color: $white;
 
         li {
-            width: 10px;
-            height: 10px;
-            -moz-border-radius: 50px;
-            -webkit-border-radius: 50px;
-            --border-radius: 50px;
-            border-radius: 100px;
+            width: 2px;
+            height: 2px;
+            border-radius: 2px;
             border: 2px solid $white;
         }
     }
@@ -414,17 +436,16 @@
         i {
             font-size: 72px;
             color: gray;
-
-            .ti-quote-left {
-                padding-right: 50px;
-                padding-top: 50px;
-                padding-top: 0px;
-            }
         }
+
+        .ti-quote-left {
+            padding: 0 12px 0 100px;
+        }
+
 
         .ti-quote-right {
             padding-top: 66px;
-            padding-right: 20px;
+            padding-right: 70px;
         }
     }
 
@@ -446,6 +467,7 @@
         p {
             color: $white;
             opacity: 40%;
+            text-align: justify;
         }
 }   
 
@@ -480,8 +502,7 @@
         }
 
         .start {
-            width: 195px;
-            height: 50px;
+            padding: 15px 48px 14px 48px;
             font-size: 16px;
             color: $white;
             border-radius: 25px; 
@@ -492,6 +513,11 @@
             &:focus, &:active {
                 outline: 0 !important;
                 box-shadow: none;
+            }
+
+            a {
+                text-decoration: none;
+                color: $white;
             }
         } 
     }
