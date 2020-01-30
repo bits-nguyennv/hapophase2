@@ -125,6 +125,7 @@
         .today {
             font-size: 36px;
             font-weight: 100;
+            padding-bottom: 15px;
 
             .magin {
                 font-size: 30px;
@@ -141,6 +142,7 @@
         .size {
             font-size: 14px;
             text-align: center;
+            padding-bottom: 22px;
         }
 
         .image {
@@ -183,6 +185,7 @@
         .today {
             font-size: 36px;
             font-weight: 100;
+            padding-bottom: 15px;
 
             .magin {
                 font-size: 30px;
@@ -199,6 +202,7 @@
         .size {
             font-size: 14px;
             text-align: center;
+            padding-bottom: 22px;
         }
 
         .left {
@@ -221,6 +225,7 @@
             text-align: center;
             margin-bottom: 20px;
             border: none;
+            margin-top: 30px;
 
             &:focus, &:active {
                 outline: 0 !important;
@@ -243,6 +248,7 @@
         .today {
             font-size: 36px;
             font-weight: 100;
+            padding-bottom: 15px;
         
             .magin {
                 font-size: 30px;
@@ -253,6 +259,7 @@
         .size {
             font-size: 14px;
             text-align: center;
+            padding-bottom: 22px;
         }
 
         .left {
@@ -304,6 +311,7 @@
         .today {
             font-size: 36px;
             font-weight: 100;
+            padding-bottom: 15px;
 
             .magin {
                 font-size: 30px;
@@ -320,6 +328,7 @@
         .size {
             font-size: 14px;
             text-align: center;
+            padding-bottom: 22px;
         }
         
         .right {
@@ -350,6 +359,7 @@
             margin-bottom: 20px;
             text-align: center;
             border: none;
+            margin-top: 30px;
 
             &:focus, &:active {
                 outline: 0 !important;
@@ -372,6 +382,7 @@
         .today {
             font-size: 36px;
             font-weight: 100;
+            padding-bottom: 15px;
 
             .magin {
                 font-size: 30px;
@@ -388,6 +399,7 @@
         .size {
             font-size: 14px;
             text-align: center;
+            padding-bottom: 22px;
         }
 
         .text-title {
@@ -507,6 +519,45 @@
             }    
         }
     }
+
+    .oval {
+        padding: 66.5px 0;
+        padding: 40px 3.3%;
+        background-image: linear-gradient(to right ,$green,#b4ec51 );
+    
+    
+        .circle {
+            width: 100px;
+            height: 100px;;
+            border-radius: 100px;
+            border: 2px solid $white;    
+    
+            .icon {          
+                font-size: 36px;
+                color: $white;
+            }
+        }
+    
+        .cle {
+            box-sizing: border-box;
+            height: 50px;
+            width: 50px;
+            border-radius:25px;
+            border: 2px solid $white;
+            background-color: #7CB342;
+            text-align: center;
+            color: $white;
+            margin-top: -25px;
+    
+            span {
+                font-size: 24px;
+            }
+        }
+    
+        p {
+            color: $white;
+        }
+    }  
 }  
 @media only screen and (max-width:480px) {
     .mask,
@@ -615,6 +666,7 @@
         .today {
             font-size: 24px;
             font-weight: 100;
+            padding-bottom: 5px;
 
             .magin {
                 font-size: 20px;
@@ -630,6 +682,7 @@
         .size {
             font-size: 13px;
             text-align: center;
+            padding-bottom: 10px;
         }
 
         .image {
@@ -672,6 +725,7 @@
         .today {
             font-size: 24px;
             font-weight: 100;
+            padding-bottom: 5px;
 
             .magin {
                 font-size: 20px;
@@ -688,6 +742,7 @@
         .size {
             font-size: 13px;
             text-align: center;
+            padding-bottom: 10px;
         }
 
         .left {
@@ -729,6 +784,7 @@
         .today {
             font-size: 24px;
             font-weight: 100;
+            padding-bottom: 5px;
 
             .magin {
                 font-size: 20px;
@@ -739,6 +795,7 @@
         .size {
             font-size: 13px;
             text-align: center;
+            padding-bottom: 10px;
         }
 
         .left {
@@ -846,6 +903,7 @@
         .today {
             font-size: 24px;
             font-weight: 100;
+            padding-bottom: 5px;
             
             .magin {
                 font-size: 20px;
@@ -862,6 +920,7 @@
         .size {
             font-size: 13px;
             text-align: center;
+            padding-bottom: 10px;
         }
 
         .right {
@@ -898,6 +957,7 @@
         width: 100%;
         background: #283238;
         margin-bottom: 10px;
+        padding: 20px 20px;
         
         .row {
            padding: 30px;

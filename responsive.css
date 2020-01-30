@@ -80,7 +80,8 @@
     padding: 50px 50px; }
     .mask-mb .today {
       font-size: 36px;
-      font-weight: 100; }
+      font-weight: 100;
+      padding-bottom: 15px; }
       .mask-mb .today .magin {
         font-size: 30px;
         margin-right: 10px; }
@@ -90,7 +91,8 @@
           text-align: center; }
     .mask-mb .size {
       font-size: 14px;
-      text-align: center; }
+      text-align: center;
+      padding-bottom: 22px; }
     .mask-mb .image {
       text-align: right;
       background: url(til.jpg) no-repeat;
@@ -120,7 +122,8 @@
     padding: 50px 50px; }
     .colum-mb .today {
       font-size: 36px;
-      font-weight: 100; }
+      font-weight: 100;
+      padding-bottom: 15px; }
       .colum-mb .today .magin {
         font-size: 30px;
         margin-right: 10px; }
@@ -130,7 +133,8 @@
           text-align: center; }
     .colum-mb .size {
       font-size: 14px;
-      text-align: center; }
+      text-align: center;
+      padding-bottom: 22px; }
     .colum-mb .left {
       text-align: justify;
       font-size: 13px; }
@@ -146,7 +150,8 @@
       background-image: linear-gradient(to right, #008000, #b4ec51);
       text-align: center;
       margin-bottom: 20px;
-      border: none; }
+      border: none;
+      margin-top: 30px; }
       .colum-mb .start:focus, .colum-mb .start:active {
         outline: 0 !important;
         box-shadow: none; }
@@ -161,13 +166,15 @@
     padding: 50px 50px; }
     .members-mb .today {
       font-size: 36px;
-      font-weight: 100; }
+      font-weight: 100;
+      padding-bottom: 15px; }
       .members-mb .today .magin {
         font-size: 30px;
         margin-right: 10px; }
     .members-mb .size {
       font-size: 14px;
-      text-align: center; }
+      text-align: center;
+      padding-bottom: 22px; }
     .members-mb .left {
       text-align: justify;
       font-size: 13px;
@@ -203,7 +210,8 @@
     padding: 50px 50px; }
     .customers-mb .today {
       font-size: 36px;
-      font-weight: 100; }
+      font-weight: 100;
+      padding-bottom: 15px; }
       .customers-mb .today .magin {
         font-size: 30px;
         margin-right: 10px; }
@@ -213,7 +221,8 @@
           text-align: center; }
     .customers-mb .size {
       font-size: 14px;
-      text-align: center; }
+      text-align: center;
+      padding-bottom: 22px; }
     .customers-mb .right {
       text-align: justify;
       font-size: 13px;
@@ -235,7 +244,8 @@
       background-image: linear-gradient(to right, #008000, #b4ec51);
       margin-bottom: 20px;
       text-align: center;
-      border: none; }
+      border: none;
+      margin-top: 30px; }
       .customers-mb .start:focus, .customers-mb .start:active {
         outline: 0 !important;
         box-shadow: none; }
@@ -250,7 +260,8 @@
     padding: 50px 50px; }
     .project-mb .today {
       font-size: 36px;
-      font-weight: 100; }
+      font-weight: 100;
+      padding-bottom: 15px; }
       .project-mb .today .magin {
         font-size: 30px;
         margin-right: 10px; }
@@ -260,7 +271,8 @@
           text-align: center; }
     .project-mb .size {
       font-size: 14px;
-      text-align: center; }
+      text-align: center;
+      padding-bottom: 22px; }
     .project-mb .text-title {
       text-align: justify;
       font-size: 13px; }
@@ -335,7 +347,34 @@
       margin-top: 40px; }
       .footer .magin .icon {
         font-size: 14px;
-        color: #8bc34a; } }
+        color: #8bc34a; }
+
+  .oval {
+    padding: 66.5px 0;
+    padding: 40px 3.3%;
+    background-image: linear-gradient(to right, #008000, #b4ec51); }
+    .oval .circle {
+      width: 100px;
+      height: 100px;
+      border-radius: 100px;
+      border: 2px solid white; }
+      .oval .circle .icon {
+        font-size: 36px;
+        color: white; }
+    .oval .cle {
+      box-sizing: border-box;
+      height: 50px;
+      width: 50px;
+      border-radius: 25px;
+      border: 2px solid white;
+      background-color: #7CB342;
+      text-align: center;
+      color: white;
+      margin-top: -25px; }
+      .oval .cle span {
+        font-size: 24px; }
+    .oval p {
+      color: white; } }
 @media only screen and (max-width: 480px) {
   .mask,
   .colum,
@@ -406,7 +445,8 @@
     padding: 30px 30px; }
     .mask-mb .today {
       font-size: 24px;
-      font-weight: 100; }
+      font-weight: 100;
+      padding-bottom: 5px; }
       .mask-mb .today .magin {
         font-size: 20px;
         margin-right: 10px; }
@@ -415,7 +455,8 @@
           font-size: 24px; }
     .mask-mb .size {
       font-size: 13px;
-      text-align: center; }
+      text-align: center;
+      padding-bottom: 10px; }
     .mask-mb .image {
       height: 308px;
       text-align: right;
@@ -444,7 +485,8 @@
     padding: 30px 30px; }
     .colum-mb .today {
       font-size: 24px;
-      font-weight: 100; }
+      font-weight: 100;
+      padding-bottom: 5px; }
       .colum-mb .today .magin {
         font-size: 20px;
         margin-right: 10px; }
@@ -454,7 +496,8 @@
           text-align: center; }
     .colum-mb .size {
       font-size: 13px;
-      text-align: center; }
+      text-align: center;
+      padding-bottom: 10px; }
     .colum-mb .left {
       text-align: justify;
       font-size: 13px;
@@ -484,13 +527,15 @@
     padding: 30px 30px; }
     .members-mb .today {
       font-size: 24px;
-      font-weight: 100; }
+      font-weight: 100;
+      padding-bottom: 5px; }
       .members-mb .today .magin {
         font-size: 20px;
         margin-right: 10px; }
     .members-mb .size {
       font-size: 13px;
-      text-align: center; }
+      text-align: center;
+      padding-bottom: 10px; }
     .members-mb .left {
       text-align: justify;
       font-size: 13px;
@@ -560,7 +605,8 @@
     padding: 30px 20px; }
     .project-mb .today {
       font-size: 24px;
-      font-weight: 100; }
+      font-weight: 100;
+      padding-bottom: 5px; }
       .project-mb .today .magin {
         font-size: 20px;
         margin-right: 10px; }
@@ -570,7 +616,8 @@
           text-align: center; }
     .project-mb .size {
       font-size: 13px;
-      text-align: center; }
+      text-align: center;
+      padding-bottom: 10px; }
     .project-mb .right {
       text-align: justify;
       font-size: 13px; }
@@ -596,7 +643,8 @@
   .footer-mb {
     width: 100%;
     background: #283238;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    padding: 20px 20px; }
     .footer-mb .row {
       padding: 30px; }
     .footer-mb .color {
