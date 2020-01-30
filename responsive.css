@@ -18,54 +18,56 @@
     display: block; }
 
   .header {
-    height: 425px;
     background-size: cover;
-    background: url(banner.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat; }
+    background-image: url(rectangle.png);
+    background-repeat: no-repeat;
+    height: 425px; }
     .header .hapo {
-      height: 29px;
-      width: 96px;
-      margin-top: 49px;
-      text-align: center; }
+      margin-top: 22px;
+      text-align: center;
+      margin-bottom: 30px; }
       .header .hapo img {
-        height: 43px;
+        height: 47px;
         width: 144px; }
     .header .sign {
       padding-right: 19px; }
       .header .sign .sign-in {
-        height: 36px;
-        width: 86px;
-        border-radius: 34px;
-        padding-right: 2.998%; }
-      .header .sign .about {
-        padding: 29px 5.474% 0 0; }
+        padding: 7px 17px 7px 17px;
+        margin-top: 19px; }
+    .header .about {
+      margin-top: -20px;
+      letter-spacing: 1px; }
+      .header .about p {
+        font-size: 12px;
+        margin-bottom: -30px;
+        letter-spacing: 1px; }
     .header .icon {
       font-size: 18px;
-      margin-top: 40px;
-      text-align: center;
-      padding: 0 2.76% 0 4.1%; }
+      text-align: center; }
     .header .word {
       font-size: 24px; }
     .header .iteam {
       font-size: 24px;
-      margin-top: 40px;
-      padding: 0 50px 0 50px; }
+      padding: 0 60px 0 60px; }
     .header .titel i {
-      font-size: 14px; }
+      font-size: 14px;
+      margin-top: 15px; }
     .header .start {
-      width: 144px;
-      height: 45px;
       size: 2em;
       color: white;
       margin-right: -1em;
       border-radius: 3em;
       background-image: linear-gradient(to right, #008000, #b4ec51);
       text-align: center;
-      border: none; }
+      border: none;
+      padding: 13px 28px 13px 27px;
+      margin-top: -15px; }
       .header .start p {
         margin-top: 5px;
         font-size: 16px; }
+      .header .start a {
+        text-decoration: none;
+        color: white; }
     .header .start:focus, .header .start:active {
       outline: 0 !important;
       box-shadow: none; }
@@ -96,8 +98,7 @@
       font-size: 13px;
       margin-top: -6px; }
     .mask-mb .start {
-      width: 144px;
-      height: 45px;
+      padding: 13px 28px 13px 28px;
       font-size: 16px;
       color: white;
       border-radius: 25px;
@@ -105,6 +106,9 @@
       margin-top: 10px;
       text-align: center;
       border: none; }
+      .mask-mb .start a {
+        text-decoration: none;
+        color: white; }
 
   .colum-mb {
     width: 100%;
@@ -131,8 +135,7 @@
       background: url(dailyReport.jpg) no-repeat;
       background-size: 100% 100%; }
     .colum-mb .start {
-      width: 144px;
-      height: 45px;
+      padding: 13px 28px 13px 28px;
       font-size: 16px;
       color: white;
       border-radius: 25px;
@@ -143,6 +146,9 @@
       .colum-mb .start:focus, .colum-mb .start:active {
         outline: 0 !important;
         box-shadow: none; }
+      .colum-mb .start a {
+        text-decoration: none;
+        color: white; }
 
   .members-mb {
     width: 100%;
@@ -170,8 +176,7 @@
       background: url(page1.png) no-repeat;
       background-size: 100% 100%; }
     .members-mb .start {
-      width: 144px;
-      height: 45px;
+      padding: 13px 28px 13px 28px;
       font-size: 16px;
       color: white;
       border-radius: 25px;
@@ -181,6 +186,9 @@
       .members-mb .start:focus, .members-mb .start:active {
         outline: 0 !important;
         box-shadow: none; }
+      .members-mb .start a {
+        text-decoration: none;
+        color: white; }
 
   .customers-mb {
     width: 100%;
@@ -213,8 +221,7 @@
       background-size: 100% 100%;
       margin-top: 20px; }
     .customers-mb .start {
-      width: 144px;
-      height: 45px;
+      padding: 13px 28px 13px 28px;
       font-size: 16px;
       color: white;
       border-radius: 25px;
@@ -225,6 +232,9 @@
       .customers-mb .start:focus, .customers-mb .start:active {
         outline: 0 !important;
         box-shadow: none; }
+      .customers-mb .start a {
+        text-decoration: none;
+        color: white; }
 
   .project-mb {
     width: 100%;
@@ -257,13 +267,15 @@
       background-image: linear-gradient(to right, #008000, #b4ec51);
       border-radius: 25px;
       text-align: center;
-      width: 144px;
-      height: 45px;
+      padding: 13px 28px 13px 28px;
       margin-bottom: 40px;
       border: none; }
       .project-mb .start:focus, .project-mb .start:active {
         outline: 0 !important;
         box-shadow: none; }
+      .project-mb .start a {
+        text-decoration: none;
+        color: white; }
 
   .our-customer {
     padding: 0 6.8%; }
@@ -283,16 +295,16 @@
       .our-customer .total i {
         font-size: 64px;
         color: gray; }
-        .our-customer .total i .ti-quote-left {
-          padding-right: 40px;
-          padding-top: 50px;
-          padding-top: 0px; }
+      .our-customer .total .ti-quote-left {
+        padding: 0 0 0 10px; }
       .our-customer .total .ti-quote-right {
-        padding-top: 133px; }
+        padding-top: 140px;
+        padding-right: 0px; }
     .our-customer p {
       color: white;
       opacity: 40%;
-      color: white; }
+      color: white;
+      text-align: justify; }
 
   .footer {
     width: 100%;
@@ -340,38 +352,40 @@
     background-size: 100% 100%;
     background-repeat: no-repeat; }
     .header .hapo {
-      height: 43px;
-      width: 144px;
       text-align: center; }
       .header .hapo img {
         height: 29px;
         width: 96px;
-        margin-top: -50px; }
-    .header .sign {
-      margin-bottom: -30px;
-      padding-right: 20px; }
-      .header .sign .sign-in {
-        height: 36px;
-        width: 86px;
-        border-radius: 34px;
-        margin-right: 20px; }
+        margin-top: -30px;
+        margin-bottom: -3px; }
+    .header .sign .sign-in {
+      padding: 9px 17px 9px 17px;
+      border-radius: 34px; }
+    .header .about {
+      margin-right: 20px;
+      color: black; }
+      .header .about p {
+        font-size: 12px;
+        letter-spacing: 1px; }
     .header .iteam {
-      padding: 0 20px 0 20px; }
+      padding: 0 45px 0 45px; }
     .header .icon {
       font-size: 24px;
-      text-align: center;
-      margin-top: -50px; }
+      text-align: center; }
     .header .titel i {
-      font-size: 9px; }
+      font-size: 9px;
+      margin-top: 10px; }
     .header .start {
-      width: 144px;
-      height: 40px;
+      padding: 10px 28px 11px 27px;
       size: 2em;
       color: white;
       margin-right: -2px;
       border-radius: 3em;
       background-image: linear-gradient(to right, #008000, #b4ec51);
       text-align: center; }
+    .header a {
+      text-decoration: none;
+      color: white; }
     .header .start:focus, .header .start:active {
       outline: 0 !important;
       box-shadow: none; }
@@ -401,14 +415,16 @@
       .mask-mb .right p {
         margin-top: 20px; }
     .mask-mb .start {
-      width: 144px;
-      height: 45px;
+      padding: 10px 28px 11px 27px;
       font-size: 16px;
       color: white;
       border-radius: 25px;
       background-image: linear-gradient(to right, #008000, #b4ec51);
       margin-top: 10px;
       text-align: center; }
+      .mask-mb .start a {
+        text-decoration: none;
+        color: white; }
 
   .colum-mb {
     width: 100%;
@@ -438,14 +454,16 @@
       width: 100%;
       margin-top: 20px; }
     .colum-mb .start {
-      width: 144px;
-      height: 45px;
+      padding: 10px 28px 11px 27px;
       font-size: 16px;
       color: white;
       border-radius: 25px;
       background-image: linear-gradient(to right, #008000, #b4ec51);
       margin-top: 15px;
       text-align: center; }
+      .colum-mb .start a {
+        text-decoration: none;
+        color: white; }
 
   .members-mb {
     width: 100%;
@@ -475,14 +493,16 @@
       background-size: 100% 100%;
       margin-bottom: 10px; }
     .members-mb .start {
-      width: 144px;
-      height: 45px;
+      padding: 10px 28px 11px 27px;
       font-size: 16px;
       color: white;
       border-radius: 25px;
       background-image: linear-gradient(to right, #008000, #b4ec51);
       text-align: center;
       margin-bottom: 5px; }
+      .members-mb .start a {
+        text-decoration: none;
+        color: white; }
 
   .our-customer {
     padding: 0 7%; }
@@ -500,8 +520,11 @@
       .our-customer .total i {
         font-size: 48px;
         color: gray; }
+      .our-customer .total .ti-quote-left {
+        padding: 0 0 0 10px; }
       .our-customer .total .ti-quote-right {
-        padding-top: 140px; }
+        padding-top: 170px;
+        padding-right: 0px; }
     .our-customer .designer {
       padding: 0 2%; }
       .our-customer .designer span {
@@ -553,9 +576,11 @@
       background-image: linear-gradient(to right, #008000, #b4ec51);
       border-radius: 25px;
       text-align: center;
-      width: 144px;
-      height: 45px;
+      padding: 10px 28px 11px 27px;
       margin-bottom: 40px; }
+      .project-mb .start a {
+        text-decoration: none;
+        color: white; }
 
   .footer-mb {
     width: 100%;
@@ -614,12 +639,9 @@
       margin-bottom: -10px;
       color: white; }
       .oval-mb .carousel-indicators li {
-        width: 10px;
-        height: 10px;
-        -moz-border-radius: 50px;
-        -webkit-border-radius: 50px;
-        --border-radius: 50px;
-        border-radius: 100px;
+        width: 2px;
+        height: 2px;
+        border-radius: 2px;
         border: 2px solid white; } }
 
 /*# sourceMappingURL=responsive.css.map */
