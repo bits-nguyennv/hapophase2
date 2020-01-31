@@ -1,3 +1,6 @@
+html, body {
+  overflow-x: hidden; }
+
 .mask-mb,
 .colum-mb,
 .oval-mb,
@@ -52,6 +55,7 @@
     margin-top: 48px;
     margin-bottom: 34px; }
   .header .start {
+    box-shadow: 1px 1.5px 5px #888888;
     size: 2em;
     color: white;
     border-radius: 3em;
@@ -77,11 +81,11 @@
   height: 571px;
   padding-top: 100px;
   box-shadow: 0 4px 8px #888888; }
-  .mask .left {
-    width: 100%;
+  .mask .left img {
     margin-top: 2em;
-    background: url(til.png) no-repeat center; }
+    width: 100%; }
   .mask .start {
+    box-shadow: 1px 1.5px 5px #888888;
     padding: 15px 48px 14px 48px;
     font-size: 16px;
     color: white;
@@ -96,12 +100,14 @@
       text-decoration: none;
       color: white; }
   .mask .right {
-    margin-top: 20px;
+    width: 100%;
+    margin-top: 15px;
     text-align: justify; }
     .mask .right .size {
       font-size: 14px; }
     .mask .right .size2 {
-      font-size: 13px; }
+      font-size: 13px;
+      padding-bottom: 30px; }
     .mask .right .today {
       font-size: 48px;
       font-weight: 100; }
@@ -119,7 +125,6 @@
   padding-top: 100px; }
   .colum .left {
     width: 50%;
-    margin-top: 20px;
     text-align: left;
     padding-left: 30px;
     text-align: justify; }
@@ -134,8 +139,10 @@
     .colum .left .size {
       font-size: 14px; }
     .colum .left .size2 {
-      font-size: 13px; }
+      font-size: 13px;
+      padding-bottom: 15px; }
   .colum .start {
+    box-shadow: 1px 1.5px 5px #888888;
     padding: 15px 48px 14px 48px;
     font-size: 16px;
     color: white;
@@ -149,10 +156,8 @@
     .colum .start a {
       text-decoration: none;
       color: white; }
-  .colum .right {
-    width: 50px;
-    margin-top: 20px;
-    background: url(dailyReport.png) no-repeat center; }
+  .colum .right img {
+    width: 100%; }
 
 .oval {
   padding: 66.5px 0;
@@ -194,7 +199,8 @@
     .members .left .size {
       font-size: 14px; }
     .members .left .size2 {
-      font-size: 13px; }
+      font-size: 13px;
+      padding-bottom: 15px; }
     .members .left .today {
       font-size: 48px;
       font-weight: 100; }
@@ -208,6 +214,7 @@
       margin-right: 19px;
       font-size: 18px; }
   .members .start {
+    box-shadow: 1px 1.5px 5px #888888;
     padding: 15px 48px 14px 48px;
     font-size: 16px;
     color: white;
@@ -221,19 +228,17 @@
     .members .start a {
       text-decoration: none;
       color: white; }
-  .members .right {
-    width: 50%;
-    padding-top: 50px;
-    background: url(members.png) no-repeat center; }
+  .members .right img {
+    width: 100%; }
 
 .customers {
   padding: 0 20.3%;
   width: 100%;
   height: 571px;
   padding-top: 50px; }
-  .customers .left {
-    width: 50%;
-    background: url(dailyReport.png) no-repeat center; }
+  .customers .left img {
+    width: 100%;
+    padding-top: 20px; }
   .customers .right {
     width: 50%;
     text-align: justify; }
@@ -255,6 +260,7 @@
       color: #008000;
       margin-right: 19px; }
     .customers .right .start {
+      box-shadow: 1px 1.5px 5px #888888;
       padding: 15px 48px 14px 48px;
       font-size: 16px;
       color: white;
@@ -284,24 +290,33 @@
     margin-bottom: -10px;
     color: white; }
     .our-customer .carousel-indicators li {
-      width: 2px;
-      height: 1px;
-      border-radius: 2px;
-      border: 2px solid white; }
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+      background-color: unset;
+      border: 1px solid white;
+      margin: 0 11px 0; }
   .our-customer .total {
     text-align: left;
-    color: white; }
+    color: white;
+    padding: 0 5vw;
+    height: 286px;
+    padding-top: 20px; }
     .our-customer .total div {
-      font-size: 18px;
-      padding: 50px 5px 0px 10px; }
+      font-size: 18px; }
     .our-customer .total i {
       font-size: 72px;
       color: gray; }
-    .our-customer .total .ti-quote-left {
-      padding: 0 12px 0 100px; }
-    .our-customer .total .ti-quote-right {
-      padding-top: 98px;
-      padding-right: 94px; }
+    .our-customer .total p {
+      padding-top: 60px;
+      color: white;
+      text-align: justify;
+      font-weight: lighter;
+      letter-spacing: -0.03pt; }
+    .our-customer .total .icon {
+      padding-top: 100px; }
+      .our-customer .total .icon i {
+        margin-left: 0px; }
   .our-customer .designer {
     padding-top: 5px; }
     .our-customer .designer img:hover {
@@ -314,10 +329,6 @@
       color: white;
       font-size: 10px;
       margin-left: 16px; }
-  .our-customer p {
-    color: white;
-    opacity: 80%;
-    text-align: justify; }
 
 .project {
   padding: 0 20.3%;
@@ -326,8 +337,7 @@
   padding-top: 50px; }
   .project .left {
     text-align: justify;
-    width: 50%;
-    margin-top: 20px; }
+    width: 50%; }
     .project .left .today {
       font-size: 48px;
       font-weight: 100; }
@@ -339,8 +349,10 @@
     .project .left .size {
       font-size: 14px; }
     .project .left .size2 {
-      font-size: 13px; }
+      font-size: 13px;
+      padding-bottom: 15px; }
     .project .left .start {
+      box-shadow: 1px 1.5px 5px #888888;
       padding: 15px 48px 14px 48px;
       font-size: 16px;
       color: white;
@@ -354,9 +366,8 @@
       .project .left .start a {
         text-decoration: none;
         color: white; }
-  .project .right {
-    width: 50%;
-    background: url(dailyReport.png) no-repeat center; }
+  .project .right img {
+    width: 100%; }
 
 .footer {
   width: 100%;
