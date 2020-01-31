@@ -285,7 +285,7 @@
     color: white; }
     .our-customer .carousel-indicators li {
       width: 2px;
-      height: 2px;
+      height: 1px;
       border-radius: 2px;
       border: 2px solid white; }
   .our-customer .total {
@@ -300,19 +300,23 @@
     .our-customer .total .ti-quote-left {
       padding: 0 12px 0 100px; }
     .our-customer .total .ti-quote-right {
-      padding-top: 66px;
-      padding-right: 70px; }
-  .our-customer .designer span {
-    color: white;
-    font-size: 13px;
-    margin-left: 10px; }
-  .our-customer .designer p {
-    color: white;
-    font-size: 10px;
-    margin-left: 16px; }
+      padding-top: 97px;
+      padding-right: 93px; }
+  .our-customer .designer {
+    padding-top: 5px; }
+    .our-customer .designer img:hover {
+      transform: scale(1.1, 1.1); }
+    .our-customer .designer span {
+      color: white;
+      font-size: 13px;
+      margin-left: 10px; }
+    .our-customer .designer p {
+      color: white;
+      font-size: 10px;
+      margin-left: 16px; }
   .our-customer p {
     color: white;
-    opacity: 40%;
+    opacity: 80%;
     text-align: justify; }
 
 .project {

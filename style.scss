@@ -433,7 +433,7 @@
 
         li {
             width: 2px;
-            height: 2px;
+            height: 1px;
             border-radius: 2px;
             border: 2px solid $white;
         }
@@ -459,13 +459,20 @@
 
 
         .ti-quote-right {
-            padding-top: 66px;
-            padding-right: 70px;
+            padding-top: 97px;
+            padding-right: 93px;
         }
     }
 
 
     .designer {
+        padding-top: 5px;
+
+        img { 
+            &:hover {
+                transform: scale(1.1,1.1);
+            }
+        }
 
         span {
             color: $white; 
@@ -481,7 +488,7 @@
     }
         p {
             color: $white;
-            opacity: 40%;
+            opacity: 80%;
             text-align: justify;
         }
 }   

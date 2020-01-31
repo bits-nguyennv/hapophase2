@@ -163,7 +163,8 @@
     width: 100%;
     text-align: center;
     margin-top: 10px;
-    padding: 50px 50px; }
+    padding: 50px 50px;
+    box-shadow: 0 2px 5px #888888; }
     .members-mb .today {
       font-size: 36px;
       font-weight: 100;
@@ -207,7 +208,7 @@
     width: 100%;
     text-align: center;
     margin-top: 10px;
-    padding: 50px 50px; }
+    padding: 50px 30px; }
     .customers-mb .today {
       font-size: 36px;
       font-weight: 100;
@@ -306,7 +307,8 @@
       font-size: 36px;
       font-weight: 100; }
     .our-customer .designer {
-      padding: 0 2%; }
+      padding: 0 2%;
+      padding-top: 5px; }
     .our-customer .total {
       text-align: left;
       color: white; }
@@ -582,7 +584,8 @@
       padding-top: 170px;
       padding-right: 0px; }
   .our-customer .designer {
-    padding: 0 1%; }
+    padding: 0 1%;
+    padding-top: 5px; }
     .our-customer .designer span {
       color: white;
       font-size: 13px;
@@ -699,7 +702,7 @@
       color: white; }
       .oval-mb .carousel-indicators li {
         width: 2px;
-        height: 2px;
+        height: 1px;
         border-radius: 2px;
         border: 2px solid white; } }
 
