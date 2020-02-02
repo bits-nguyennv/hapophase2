@@ -45,7 +45,8 @@
       font-size: 18px;
       text-align: center; }
     .header .word {
-      font-size: 24px; }
+      font-size: 24px;
+      font-weight: lighter; }
     .header .iteam {
       font-size: 24px;
       padding: 0 60px 0 60px; }
@@ -103,7 +104,8 @@
     .mask-mb .right {
       text-align: justify;
       font-size: 13px;
-      margin-top: -6px; }
+      margin-top: -6px;
+      line-height: 21px; }
     .mask-mb .start {
       box-shadow: 1px 1.5px 5px #888888;
       padding: 13px 28px 13px 28px;
@@ -140,7 +142,8 @@
       padding-bottom: 22px; }
     .colum-mb .left {
       text-align: justify;
-      font-size: 13px; }
+      font-size: 13px;
+      line-height: 21px; }
     .colum-mb .image {
       text-align: right;
       background: url(dailyReport.jpg) no-repeat;
@@ -183,7 +186,8 @@
     .members-mb .left {
       text-align: justify;
       font-size: 13px;
-      margin-top: 10px; }
+      margin-top: 10px;
+      line-height: 21px; }
       .members-mb .left i {
         color: #008000;
         margin-right: 10px;
@@ -232,7 +236,8 @@
     .customers-mb .right {
       text-align: justify;
       font-size: 13px;
-      margin-top: 10px; }
+      margin-top: 10px;
+      line-height: 21px; }
       .customers-mb .right i {
         color: #008000;
         margin-right: 10px;
@@ -281,7 +286,8 @@
       padding-bottom: 22px; }
     .project-mb .text-title {
       text-align: justify;
-      font-size: 13px; }
+      font-size: 13px;
+      line-height: 21px; }
     .project-mb .image {
       text-align: right;
       background: url(dailyReport.jpg) no-repeat;
@@ -315,19 +321,20 @@
       font-weight: 100; }
     .our-customer .designer {
       padding: 0 3%;
-      padding-top: 5px; }
+      padding-top: 5px;
+      padding-bottom: 20px; }
     .our-customer .total {
       text-align: left;
       color: white;
       padding: 0 5vw;
-      height: 286px;
-      padding-top: 20px; }
+      height: 286px; }
       .our-customer .total div {
         font-size: 18px; }
       .our-customer .total i {
         font-size: 64px;
         color: gray; }
       .our-customer .total p {
+        line-height: 30px;
         color: white;
         color: white;
         text-align: justify;
@@ -350,6 +357,10 @@
       .footer .color p {
         color: white;
         font-size: 10px; }
+        .footer .color p a {
+          text-decoration: none;
+          color: white;
+          line-height: 20px; }
       .footer .color img {
         width: 86px; }
     .footer .magin {
@@ -475,7 +486,8 @@
       text-align: justify;
       font-size: 13px; }
       .mask-mb .right p {
-        margin-top: 20px; }
+        margin-top: 20px;
+        line-height: 21px; }
     .mask-mb .start {
       box-shadow: 1px 1.5px 5px #888888;
       padding: 10px 28px 11px 27px;
@@ -512,7 +524,8 @@
     .colum-mb .left {
       text-align: justify;
       font-size: 13px;
-      margin-top: 10px; }
+      margin-top: 10px;
+      line-height: 21px; }
     .colum-mb .image {
       text-align: right;
       background: url(dailyReport.png) no-repeat;
@@ -551,7 +564,8 @@
     .members-mb .left {
       text-align: justify;
       font-size: 13px;
-      margin-top: 10px; }
+      margin-top: 10px;
+      line-height: 21px; }
       .members-mb .left i {
         color: #008000;
         margin-right: 10px;
@@ -587,14 +601,14 @@
       color: white;
       flex-direction: column;
       padding: 0 5vw;
-      height: 230px;
-      padding-top: 30px; }
+      height: 230px; }
       .our-customer .total div {
         font-size: 14px; }
       .our-customer .total i {
         font-size: 48px;
         color: gray; }
       .our-customer .total p {
+        line-height: 25px;
         margin-bottom: 0px;
         padding-top: 0px;
         color: white;
@@ -608,7 +622,8 @@
           margin-left: 8em; }
     .our-customer .designer {
       padding: 0 4.28%;
-      padding-top: 5px; }
+      padding-top: 5px;
+      padding-bottom: 20px; }
       .our-customer .designer span {
         color: white;
         font-size: 13px;
@@ -675,6 +690,10 @@
       .footer-mb .color p {
         color: white;
         font-size: 10px; }
+        .footer-mb .color p a {
+          text-decoration: none;
+          color: white;
+          line-height: 20px; }
       .footer-mb .color img {
         width: 96px; }
     .footer-mb .magin {
@@ -687,9 +706,12 @@
       color: white;
       font-size: 10px;
       margin-top: 50px; }
+      .footer-mb .copy a {
+        text-decoration: none;
+        color: white; }
 
   .oval-mb {
-    padding: 20px 20px;
+    padding: 40px 20px;
     background-image: linear-gradient(to right, #008000, #b4ec51); }
     .oval-mb .circle {
       width: 100px;

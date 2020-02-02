@@ -74,6 +74,7 @@ html,body {
 
     .word {
         font-size: 36px;
+        font-weight: lighter;
     }
 
     .titel {
@@ -167,6 +168,8 @@ html,body {
         .size2 {
             font-size: 13px;
             padding-bottom: 30px;
+            line-height: 24px;
+            letter-spacing: 0px;
         }
 
         .today {
@@ -219,6 +222,7 @@ html,body {
         .size2 {
             font-size: 13px;
             padding-bottom: 15px;
+            line-height: 24px;
         }
     }
 
@@ -311,6 +315,7 @@ html,body {
         .size2 {
             font-size: 13px;
             padding-bottom: 15px;
+            line-height: 24px;
         }
 
         .today {
@@ -390,6 +395,7 @@ html,body {
 
         .size2 {
             font-size: 13px;
+            line-height: 24px;
 
             i {
                 font-size: 18px;
@@ -475,7 +481,7 @@ html,body {
         color: $white;
         padding: 0 5vw;
         height: 286px;
-        padding-top: 20px;
+        // padding-top: 20px;
 
         div {
             font-size: 18px;
@@ -487,6 +493,7 @@ html,body {
         }
 
         p {
+            line-height: 30px;
             padding-top: 60px;
             color: $white;
             // opacity: 80%;
@@ -506,6 +513,7 @@ html,body {
 
 
     .designer {
+        padding-bottom: 20px;
         padding-top: 5px;
 
         img { 
@@ -526,13 +534,6 @@ html,body {
             margin-left: 16px;
         }
     }
-        // p {
-        //     color: $white;
-        //     // opacity: 80%;
-        //     text-align: justify;
-        //     font-weight: lighter;
-        //     letter-spacing: -0.03pt
-        // }
 }   
 
 .project {
@@ -567,6 +568,7 @@ html,body {
         .size2 {
             font-size: 13px;
             padding-bottom: 15px;
+            line-height: 24px;
         }
 
         .start {
@@ -615,11 +617,17 @@ html,body {
 
         span {
             font-size: 13px;
-        }
+        } 
 
         p {
             color: $white;
             font-size: 10px;
+
+            a {
+                text-decoration: none;
+                color: $white;
+                line-height: 24px;
+            }
         }
 
         img {

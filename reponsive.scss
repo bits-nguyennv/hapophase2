@@ -67,6 +67,7 @@
 
         .word {
             font-size: 24px;
+            font-weight: lighter;
         }
 
         .iteam {
@@ -161,6 +162,7 @@
             text-align: justify;
             font-size: 13px;
             margin-top: -6px;
+            line-height: 21px;
         }
 
         .start {
@@ -213,6 +215,7 @@
         .left {
             text-align: justify;
             font-size: 13px;
+            line-height: 21px;
         }
 
         .image {
@@ -273,6 +276,7 @@
             text-align: justify;
             font-size: 13px;
             margin-top: 10px;
+            line-height: 21px;
 
             i {
                 color: $green;  
@@ -343,6 +347,7 @@
             text-align: justify;
             font-size: 13px;
             margin-top: 10px;
+            line-height: 21px;
 
             i {
                 color: $green;  
@@ -413,6 +418,7 @@
         .text-title {
             text-align: justify;
             font-size: 13px;
+            line-height: 21px;
         }  
 
         .image {
@@ -449,6 +455,7 @@
     .our-customer { 
          padding: 30px 30px;    
          padding: 0px; 
+
         .our {
             color: $white;
             text-align: center;
@@ -459,6 +466,7 @@
         .designer {
             padding: 0 3%;
             padding-top: 5px;
+            padding-bottom: 20px;
         } 
 
         .total {
@@ -466,7 +474,7 @@
             color: $white;
             padding: 0 5vw;
             height: 286px;
-            padding-top: 20px;
+            // padding-top: 20px;
     
 
             div {
@@ -480,6 +488,7 @@
             }
     
             p {
+                line-height: 30px;
                 color: $white;
                 // opacity: 40%;
                 color: $white;
@@ -516,6 +525,12 @@
             p {
                 color: $white;
                 font-size: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: $white;
+                    line-height: 20px;
+                }
             }
 
             img {
@@ -711,6 +726,7 @@
 
             p {
                 margin-top: 20px;
+                line-height: 21px;
             }
         }
 
@@ -764,6 +780,7 @@
             text-align: justify;
             font-size: 13px;
             margin-top: 10px;
+            line-height: 21px;
         }
 
         .image {
@@ -818,6 +835,7 @@
             text-align: justify;
             font-size: 13px;
             margin-top: 10px;
+            line-height: 21px;
 
             i {
                 color: $green;  
@@ -867,7 +885,7 @@
             flex-direction: column;
             padding: 0 5vw;
             height: 230px;
-            padding-top: 30px;
+            // padding-top: 30px;
 
             div {
                 font-size: 14px;
@@ -879,6 +897,7 @@
             }
 
             p {
+                line-height: 25px;
                 margin-bottom: 0px;
                 padding-top: 0px;
                 color: $white;
@@ -900,6 +919,7 @@
         .designer {
             padding: 0 4.28%;
             padding-top: 5px;
+            padding-bottom: 20px;
 
             span {
                 color: $white; 
@@ -995,6 +1015,12 @@
             p {
                 color: $white;
                 font-size: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: $white;
+                    line-height: 20px;
+                }
             }
 
             img {
@@ -1016,11 +1042,16 @@
             color: $white;
             font-size: 10px;
             margin-top: 50px;
+
+            a {
+                text-decoration: none;
+                color: $white;
+            }
         }
     }
 
     .oval-mb {
-        padding: 20px 20px;
+        padding: 40px 20px;
         background-image: linear-gradient(to right ,$green,#b4ec51 );
 
         .circle {

@@ -49,7 +49,8 @@ html, body {
     font-size: 48px;
     padding: 0 140px 0 140px; }
   .header .word {
-    font-size: 36px; }
+    font-size: 36px;
+    font-weight: lighter; }
   .header .titel i {
     font-size: 18px;
     margin-top: 48px;
@@ -107,7 +108,9 @@ html, body {
       font-size: 14px; }
     .mask .right .size2 {
       font-size: 13px;
-      padding-bottom: 30px; }
+      padding-bottom: 30px;
+      line-height: 24px;
+      letter-spacing: 0px; }
     .mask .right .today {
       font-size: 48px;
       font-weight: 100; }
@@ -140,7 +143,8 @@ html, body {
       font-size: 14px; }
     .colum .left .size2 {
       font-size: 13px;
-      padding-bottom: 15px; }
+      padding-bottom: 15px;
+      line-height: 24px; }
   .colum .start {
     box-shadow: 1px 1.5px 5px #888888;
     padding: 15px 48px 14px 48px;
@@ -200,7 +204,8 @@ html, body {
       font-size: 14px; }
     .members .left .size2 {
       font-size: 13px;
-      padding-bottom: 15px; }
+      padding-bottom: 15px;
+      line-height: 24px; }
     .members .left .today {
       font-size: 48px;
       font-weight: 100; }
@@ -245,7 +250,8 @@ html, body {
     .customers .right .size {
       font-size: 14px; }
     .customers .right .size2 {
-      font-size: 13px; }
+      font-size: 13px;
+      line-height: 24px; }
       .customers .right .size2 i {
         font-size: 18px; }
     .customers .right .today {
@@ -300,14 +306,14 @@ html, body {
     text-align: left;
     color: white;
     padding: 0 5vw;
-    height: 286px;
-    padding-top: 20px; }
+    height: 286px; }
     .our-customer .total div {
       font-size: 18px; }
     .our-customer .total i {
       font-size: 72px;
       color: gray; }
     .our-customer .total p {
+      line-height: 30px;
       padding-top: 60px;
       color: white;
       text-align: justify;
@@ -318,6 +324,7 @@ html, body {
       .our-customer .total .icon i {
         margin-left: 0px; }
   .our-customer .designer {
+    padding-bottom: 20px;
     padding-top: 5px; }
     .our-customer .designer img:hover {
       transform: scale(1.1, 1.1); }
@@ -350,7 +357,8 @@ html, body {
       font-size: 14px; }
     .project .left .size2 {
       font-size: 13px;
-      padding-bottom: 15px; }
+      padding-bottom: 15px;
+      line-height: 24px; }
     .project .left .start {
       box-shadow: 1px 1.5px 5px #888888;
       padding: 15px 48px 14px 48px;
@@ -383,6 +391,10 @@ html, body {
     .footer .color p {
       color: white;
       font-size: 10px; }
+      .footer .color p a {
+        text-decoration: none;
+        color: white;
+        line-height: 24px; }
     .footer .color img {
       height: 29px;
       width: 96px; }
