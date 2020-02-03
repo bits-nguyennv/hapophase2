@@ -189,7 +189,8 @@
       .members-mb .left i {
         color: #8bc34a;
         margin-right: 10px;
-        font-size: 18px; }
+        font-size: 18px;
+        margin-top: 5px; }
     .members-mb .image img {
       width: 100%; }
     .members-mb .start {
@@ -560,7 +561,8 @@
       .members-mb .left i {
         color: #8bc34a;
         margin-right: 10px;
-        font-size: 18px; }
+        font-size: 18px;
+        margin-top: 5px; }
     .members-mb .image img {
       width: 100%; }
     .members-mb .start {
