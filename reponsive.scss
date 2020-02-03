@@ -124,7 +124,7 @@
         margin-top: 10px;   
         // box-shadow: 0 4px 8px #888888;
         box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
-        padding: 30px 30px;
+        padding: 15px 30px;
            
         .today {
             font-size: 36px;
@@ -186,7 +186,7 @@
         width: 100%;
         text-align: center;
         margin-top: 10px;
-        padding: 30px 30px;
+        padding: 15px 30px;
 
         .today {
             font-size: 36px;
@@ -251,7 +251,7 @@
         width: 100%;
         text-align: center;
         margin-top: 10px;
-        padding: 30px 30px;
+        padding: 15px 30px;
         box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
 
         .today {
@@ -278,7 +278,7 @@
             line-height: 21px;
 
             i {
-                color: $green;  
+                color: #8bc34a;  
                 margin-right: 10px;
                 font-size: 18px;
             }
@@ -317,7 +317,7 @@
         width: 100%;
         text-align: center;
         margin-top: 10px;
-        padding: 30px 40px;
+        padding: 15px 40px;
 
         .today {
             font-size: 36px;
@@ -349,7 +349,7 @@
             line-height: 21px;
 
             i {
-                color: $green;  
+                color: #8bc34a;  
                 margin-right: 10px;
                 font-size: 18px;
             }
@@ -389,7 +389,7 @@
         width: 100%;
         text-align: center;
         margin-top: 10px;
-        padding: 30px 40px;
+        padding: 15px 40px;
 
         .today {
             font-size: 36px;
@@ -479,6 +479,7 @@
             div {
                 font-size: 18px;
                 // padding: 50px 5px 0px 10px;
+                padding-right: 0px;
             }
 
             i {
@@ -543,6 +544,7 @@
             .icon {
                 font-size: 14px;
                 color: $light_green;
+                padding: 0 4px;
             }    
         }
     }
@@ -618,7 +620,7 @@
             text-align: center;
 
             img {
-                height:29px;
+                height:26px;
                 width: 96px;
                 margin-top: -30px;
                 margin-bottom: -3px;
@@ -837,7 +839,7 @@
             line-height: 21px;
 
             i {
-                color: $green;  
+                color: #8bc34a;  
                 margin-right: 10px;
                 font-size: 18px;
             }
@@ -938,7 +940,7 @@
     .project-mb {
         width: 100%;
         text-align: center;
-        padding: 20px 20px;
+        padding: 10px 20px;
 
         .today {
             font-size: 24px;
