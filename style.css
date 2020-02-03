@@ -54,7 +54,8 @@ html, body {
   .header .titel i {
     font-size: 18px;
     margin-top: 48px;
-    margin-bottom: 34px; }
+    margin-bottom: 34px;
+    letter-spacing: -0.03px; }
   .header .start {
     box-shadow: 1px 1.5px 5px #888888;
     size: 2em;
@@ -205,7 +206,9 @@ html, body {
     .members .left .size2 {
       font-size: 13px;
       padding-bottom: 15px;
-      line-height: 24px; }
+      line-height: 24px;
+      overflow: hidden;
+      max-height: 3.2em; }
     .members .left .today {
       font-size: 48px;
       font-weight: 100; }
@@ -295,12 +298,15 @@ html, body {
     border-radius: 40px;
     margin-bottom: -10px;
     color: white; }
+    .our-customer .carousel-indicators .active {
+      background-color: white; }
     .our-customer .carousel-indicators li {
       width: 10px;
       height: 10px;
       border-radius: 100%;
       border: 1px solid white;
-      margin: 0 11px 0; }
+      margin: 0 11px 0;
+      background-color: unset; }
   .our-customer .total {
     text-align: left;
     color: white;

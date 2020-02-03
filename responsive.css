@@ -52,7 +52,8 @@
       padding: 0 60px 0 60px; }
     .header .titel i {
       font-size: 14px;
-      margin-top: 15px; }
+      margin-top: 15px;
+      letter-spacing: -0.03px; }
     .header .start {
       box-shadow: 1px 1.5px 5px #888888;
       size: 2em;
@@ -110,7 +111,7 @@
       color: white;
       border-radius: 25px;
       background-image: linear-gradient(to right, #008000, #b4ec51);
-      margin-top: 20px;
+      margin: 20px 50px;
       text-align: center;
       border: none; }
       .mask-mb .start a {
@@ -151,9 +152,8 @@
       border-radius: 25px;
       background-image: linear-gradient(to right, #008000, #b4ec51);
       text-align: center;
-      margin-bottom: 20px;
-      border: none;
-      margin-top: 30px; }
+      margin: 20px 50px;
+      border: none; }
       .colum-mb .start:focus, .colum-mb .start:active {
         outline: 0 !important;
         box-shadow: none; }
@@ -183,6 +183,9 @@
       font-size: 13px;
       margin-top: 10px;
       line-height: 21px; }
+      .members-mb .left .d-flex {
+        overflow: hidden;
+        max-height: 4.8em; }
       .members-mb .left i {
         color: #8bc34a;
         margin-right: 10px;
@@ -198,7 +201,7 @@
       background-image: linear-gradient(to right, #008000, #b4ec51);
       text-align: center;
       border: none;
-      margin-top: 40px; }
+      margin: 20px 50px; }
       .members-mb .start:focus, .members-mb .start:active {
         outline: 0 !important;
         box-shadow: none; }
@@ -243,10 +246,9 @@
       color: white;
       border-radius: 25px;
       background-image: linear-gradient(to right, #008000, #b4ec51);
-      margin-bottom: 20px;
+      margin: 20px 50px;
       text-align: center;
-      border: none;
-      margin-top: 30px; }
+      border: none; }
       .customers-mb .start:focus, .customers-mb .start:active {
         outline: 0 !important;
         box-shadow: none; }
@@ -289,9 +291,8 @@
       border-radius: 25px;
       text-align: center;
       padding: 13px 28px 13px 28px;
-      margin-bottom: 40px;
-      border: none;
-      margin-top: 20px; }
+      margin: 20px 50px;
+      border: none; }
       .project-mb .start:focus, .project-mb .start:active {
         outline: 0 !important;
         box-shadow: none; }
@@ -433,7 +434,8 @@
       text-align: center; }
     .header .titel i {
       font-size: 9px;
-      margin-top: 10px; }
+      margin-top: 10px;
+      letter-spacing: -0.03px; }
     .header .start {
       box-shadow: 1px 1.5px 5px #888888;
       padding: 10px 28px 11px 27px;
@@ -484,7 +486,8 @@
       border-radius: 25px;
       background-image: linear-gradient(to right, #008000, #b4ec51);
       margin-top: 10px;
-      text-align: center; }
+      text-align: center;
+      margin: 20px 30px; }
       .mask-mb .start a {
         text-decoration: none;
         color: white; }
@@ -524,7 +527,8 @@
       border-radius: 25px;
       background-image: linear-gradient(to right, #008000, #b4ec51);
       margin-top: 15px;
-      text-align: center; }
+      text-align: center;
+      margin: 20px 30px; }
       .colum-mb .start a {
         text-decoration: none;
         color: white; }
@@ -550,6 +554,9 @@
       font-size: 13px;
       margin-top: 10px;
       line-height: 21px; }
+      .members-mb .left .d-flex {
+        overflow: hidden;
+        max-height: 4.8em; }
       .members-mb .left i {
         color: #8bc34a;
         margin-right: 10px;
@@ -564,7 +571,7 @@
       border-radius: 25px;
       background-image: linear-gradient(to right, #008000, #b4ec51);
       text-align: center;
-      margin-bottom: 5px; }
+      margin: 30px 30px; }
       .members-mb .start a {
         text-decoration: none;
         color: white; }
@@ -647,7 +654,7 @@
       border-radius: 25px;
       text-align: center;
       padding: 10px 28px 11px 27px;
-      margin-bottom: 40px; }
+      margin: 20px 30px; }
       .project-mb .start a {
         text-decoration: none;
         color: white; }
@@ -716,10 +723,13 @@
       border-radius: 40px;
       margin-bottom: -10px;
       color: white; }
+      .oval-mb .carousel-indicators .active {
+        background-color: white; }
       .oval-mb .carousel-indicators li {
         width: 10px;
         height: 10px;
         border-radius: 100%;
+        background-color: unset;
         border: 1px solid white;
         margin: 0 11px 0; } }
 
