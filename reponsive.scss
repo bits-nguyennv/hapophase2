@@ -150,10 +150,14 @@
         }
 
         .image {
-            text-align: right;
-            background: url(til.jpg) no-repeat;
-            background-size: 100% 100%;
-            width: 100%;
+
+            img {
+                width: 100%;
+            }
+            // text-align: right;
+            // background: url(til.jpg) no-repeat;
+            // background-size: 100% 100%;
+            // width: 100%;
 
         }
 
@@ -218,9 +222,12 @@
         }
 
         .image {
-            text-align: right;
-            background: url(dailyReport.jpg) no-repeat;
-            background-size: 100% 100%;
+            // text-align: right;
+            // background: url(dailyReport.jpg) no-repeat;
+            // background-size: 100% 100%;
+            img {
+                width: 100%;
+            }
         }
 
         .start {
@@ -285,9 +292,13 @@
         }
 
         .image {
-            text-align: right;
-            background: url(page1.png) no-repeat;
-            background-size: 100% 100%;   
+            // text-align: right;
+            // background: url(page1.png) no-repeat;
+            // background-size: 100% 100%;   
+
+            img {
+                width: 100%;
+            }
         }
 
         .start {
@@ -317,7 +328,7 @@
         width: 100%;
         text-align: center;
         margin-top: 10px;
-        padding: 15px 40px;
+        padding: 15px 30px;
 
         .today {
             font-size: 36px;
@@ -356,10 +367,14 @@
         }
 
         .image {
-            text-align: right;
-            background: url(dailyReport.jpg) no-repeat;
-            background-size: 100% 100%;   
-            margin-top: 20px;
+            // text-align: right;
+            // background: url(dailyReport.jpg) no-repeat;
+            // background-size: 100% 100%;   
+            // margin-top: 20px;
+
+            img {
+                width: 100%;
+            }
         }
 
         .start {
@@ -389,7 +404,7 @@
         width: 100%;
         text-align: center;
         margin-top: 10px;
-        padding: 15px 40px;
+        padding: 15px 30px;
 
         .today {
             font-size: 36px;
@@ -421,9 +436,13 @@
         }  
 
         .image {
-            text-align: right;
-            background: url(dailyReport.jpg) no-repeat;
-            background-size: 100% 100%;
+            // text-align: right;
+            // background: url(dailyReport.jpg) no-repeat;
+            // background-size: 100% 100%;
+
+            img {
+                width: 100%;
+            }
         }
         
         .start {
@@ -716,9 +735,10 @@
         }
 
         .image {
-            height: 308px;
-            text-align: right;
-            background: url(til.png) no-repeat;
+
+            img {
+                width: 100%;
+            }
         }
 
         .right {
@@ -785,11 +805,10 @@
         }
 
         .image {
-            text-align: right;
-            background: url(dailyReport.png) no-repeat;
-            height: 292px;
-            width: 100%;
-            margin-top: 20px;
+
+            img {
+                width: 100%;
+            }
         }
 
         .start {
@@ -846,11 +865,10 @@
         }
 
         .image {
-            text-align: right;
-            background: url(page1.png) no-repeat;
-            height: 340px;  
-            background-size: 100% 100%;
-            margin-bottom: 10px; 
+
+            img {
+                width: 100%;
+            }
         }
 
         .start {
@@ -886,7 +904,6 @@
             flex-direction: column;
             padding: 0 5vw;
             height: 230px;
-            // padding-top: 30px;
 
             div {
                 font-size: 14px;
@@ -971,11 +988,10 @@
         }
 
         .image {
-            text-align: right;
-            background: url(dailyReport.png) no-repeat;
-            height: 298px;  
-            width: 100%;    
-            margin-top: 10px;
+
+            img {
+                width: 100%;
+            }
         }
 
         .start {
@@ -1097,7 +1113,7 @@
                 width: 10px;
                 height: 10px;
                 border-radius: 100%;
-                background-color: unset;
+                // background-color: unset;
                 border: 1px solid white;
                 margin: 0 11px 0;
             }

@@ -96,10 +96,7 @@
       font-size: 14px;
       text-align: center;
       padding-bottom: 22px; }
-    .mask-mb .image {
-      text-align: right;
-      background: url(til.jpg) no-repeat;
-      background-size: 100% 100%;
+    .mask-mb .image img {
       width: 100%; }
     .mask-mb .right {
       text-align: justify;
@@ -144,10 +141,8 @@
       text-align: justify;
       font-size: 13px;
       line-height: 21px; }
-    .colum-mb .image {
-      text-align: right;
-      background: url(dailyReport.jpg) no-repeat;
-      background-size: 100% 100%; }
+    .colum-mb .image img {
+      width: 100%; }
     .colum-mb .start {
       box-shadow: 1px 1.5px 5px #888888;
       padding: 13px 28px 13px 28px;
@@ -192,10 +187,8 @@
         color: #8bc34a;
         margin-right: 10px;
         font-size: 18px; }
-    .members-mb .image {
-      text-align: right;
-      background: url(page1.png) no-repeat;
-      background-size: 100% 100%; }
+    .members-mb .image img {
+      width: 100%; }
     .members-mb .start {
       box-shadow: 1px 1.5px 5px #888888;
       padding: 13px 28px 13px 28px;
@@ -217,7 +210,7 @@
     width: 100%;
     text-align: center;
     margin-top: 10px;
-    padding: 15px 40px; }
+    padding: 15px 30px; }
     .customers-mb .today {
       font-size: 36px;
       font-weight: 100;
@@ -242,11 +235,8 @@
         color: #8bc34a;
         margin-right: 10px;
         font-size: 18px; }
-    .customers-mb .image {
-      text-align: right;
-      background: url(dailyReport.jpg) no-repeat;
-      background-size: 100% 100%;
-      margin-top: 20px; }
+    .customers-mb .image img {
+      width: 100%; }
     .customers-mb .start {
       padding: 13px 28px 13px 28px;
       font-size: 16px;
@@ -268,7 +258,7 @@
     width: 100%;
     text-align: center;
     margin-top: 10px;
-    padding: 15px 40px; }
+    padding: 15px 30px; }
     .project-mb .today {
       font-size: 36px;
       font-weight: 100;
@@ -288,10 +278,8 @@
       text-align: justify;
       font-size: 13px;
       line-height: 21px; }
-    .project-mb .image {
-      text-align: right;
-      background: url(dailyReport.jpg) no-repeat;
-      background-size: 100% 100%; }
+    .project-mb .image img {
+      width: 100%; }
     .project-mb .start {
       box-shadow: 1px 1.5px 5px #888888;
       font-size: 16px;
@@ -480,10 +468,8 @@
       font-size: 13px;
       text-align: center;
       padding-bottom: 10px; }
-    .mask-mb .image {
-      height: 308px;
-      text-align: right;
-      background: url(til.png) no-repeat; }
+    .mask-mb .image img {
+      width: 100%; }
     .mask-mb .right {
       text-align: justify;
       font-size: 13px; }
@@ -528,12 +514,8 @@
       font-size: 13px;
       margin-top: 10px;
       line-height: 21px; }
-    .colum-mb .image {
-      text-align: right;
-      background: url(dailyReport.png) no-repeat;
-      height: 292px;
-      width: 100%;
-      margin-top: 20px; }
+    .colum-mb .image img {
+      width: 100%; }
     .colum-mb .start {
       box-shadow: 1px 1.5px 5px #888888;
       padding: 10px 28px 11px 27px;
@@ -572,12 +554,8 @@
         color: #8bc34a;
         margin-right: 10px;
         font-size: 18px; }
-    .members-mb .image {
-      text-align: right;
-      background: url(page1.png) no-repeat;
-      height: 340px;
-      background-size: 100% 100%;
-      margin-bottom: 10px; }
+    .members-mb .image img {
+      width: 100%; }
     .members-mb .start {
       box-shadow: 1px 1.5px 5px #888888;
       padding: 10px 28px 11px 27px;
@@ -658,12 +636,8 @@
     .project-mb .right {
       text-align: justify;
       font-size: 13px; }
-    .project-mb .image {
-      text-align: right;
-      background: url(dailyReport.png) no-repeat;
-      height: 298px;
-      width: 100%;
-      margin-top: 10px; }
+    .project-mb .image img {
+      width: 100%; }
     .project-mb .start {
       box-shadow: 1px 1.5px 5px #888888;
       font-size: 16px;
@@ -746,7 +720,6 @@
         width: 10px;
         height: 10px;
         border-radius: 100%;
-        background-color: unset;
         border: 1px solid white;
         margin: 0 11px 0; } }
 
