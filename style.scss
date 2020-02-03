@@ -83,6 +83,7 @@ html,body {
             font-size: 18px;
             margin-top: 48px;
             margin-bottom: 34px;
+            letter-spacing: -0.03px;
         }
     }
 
@@ -106,6 +107,7 @@ html,body {
         a {
             text-decoration: none;
             color: $white;
+            // line-height: 40px;
         }
     }
 
@@ -312,6 +314,8 @@ html,body {
             font-size: 13px;
             padding-bottom: 15px;
             line-height: 24px;
+            overflow: hidden;
+            max-height: 3.2em;
         }
 
         .today {
@@ -455,12 +459,18 @@ html,body {
         margin-bottom: -10px;
         color: $white;
 
+        .active {
+            background-color: white;
+        }
+
         li {
             width: 10px;
             height: 10px;
             border-radius: 100%;
-            border: 1px solid white;
+             border: 1px solid white;
             margin: 0 11px 0;
+            background-color: unset;       
+
         }
     }
 
@@ -505,6 +515,7 @@ html,body {
         padding-top: 5px;
 
         img { 
+
             &:hover {
                 transform: scale(1.1,1.1);
             }

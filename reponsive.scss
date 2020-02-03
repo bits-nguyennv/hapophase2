@@ -50,7 +50,6 @@
                   
         }
             .about {
-                // padding: 29px 5.474% 0 0;
                 margin-top: -20px;
                 letter-spacing: 1px;
 
@@ -81,6 +80,7 @@
             i {
                 font-size: 14px;
                 margin-top: 15px;
+                letter-spacing: -0.03px;
             }
         }
 
@@ -154,11 +154,6 @@
             img {
                 width: 100%;
             }
-            // text-align: right;
-            // background: url(til.jpg) no-repeat;
-            // background-size: 100% 100%;
-            // width: 100%;
-
         }
 
         .right {
@@ -175,7 +170,7 @@
             color: $white;
             border-radius: 25px; 
             background-image: linear-gradient(to right ,$green,#b4ec51 );
-            margin-top: 20px;
+            margin: 20px 50px;
             text-align: center;
             border: none;
 
@@ -238,9 +233,8 @@
             border-radius: 25px; 
             background-image: linear-gradient(to right ,$green,#b4ec51 );
             text-align: center;
-            margin-bottom: 20px;
+            margin: 20px 50px;
             border: none;
-            margin-top: 30px;
 
             &:focus, &:active {
                 outline: 0 !important;
@@ -283,6 +277,11 @@
             font-size: 13px;
             margin-top: 10px;
             line-height: 21px;
+            
+            .d-flex {
+            overflow: hidden;
+            max-height: 4.8em;
+            }
 
             i {
                 color: #8bc34a;  
@@ -310,7 +309,7 @@
             background-image: linear-gradient(to right ,$green,#b4ec51 );
             text-align: center;
             border: none;
-            margin-top: 40px;
+            margin: 20px 50px;
 
             &:focus, &:active {
                 outline: 0 !important;
@@ -383,10 +382,9 @@
             color: $white;
             border-radius: 25px; 
             background-image: linear-gradient(to right ,$green,#b4ec51 );
-            margin-bottom: 20px;
+            margin: 20px 50px;
             text-align: center;
             border: none;
-            margin-top: 30px;
 
             &:focus, &:active {
                 outline: 0 !important;
@@ -454,10 +452,8 @@
             border-radius: 25px;  
             text-align: center; 
             padding: 13px 28px 13px 28px;
-            margin-bottom: 40px;
+            margin: 20px 50px;
             border: none;
-            margin-top: 20px;
-
             &:focus, &:active {
                 outline: 0 !important;
                 box-shadow: none;
@@ -679,6 +675,7 @@
             i {
                 font-size: 9px;
                 margin-top: 10px;
+                letter-spacing: -0.03px;
             }    
         }  
 
@@ -760,6 +757,7 @@
             background-image: linear-gradient(to right ,$green,#b4ec51);
             margin-top: 10px;
             text-align: center;
+            margin: 20px 30px;
 
             a {
                 text-decoration: none;
@@ -820,6 +818,7 @@
             background-image: linear-gradient(to right ,$green,#b4ec51 );
             margin-top: 15px;
             text-align: center;
+            margin: 20px 30px;
 
             a {
                 text-decoration: none;
@@ -849,6 +848,7 @@
             font-size: 13px;
             text-align: center;
             padding-bottom: 10px;
+
         }
 
         .left {
@@ -856,6 +856,11 @@
             font-size: 13px;
             margin-top: 10px;
             line-height: 21px;
+            
+            .d-flex {
+                overflow: hidden;
+                max-height: 4.8em;
+            }
 
             i {
                 color: #8bc34a;  
@@ -879,7 +884,7 @@
             border-radius: 25px; 
             background-image: linear-gradient(to right ,$green,#b4ec51 );
             text-align: center;
-            margin-bottom: 5px;
+            margin: 30px 30px;
 
             a {
                 text-decoration: none;
@@ -1003,7 +1008,7 @@
             border-radius: 25px;  
             text-align: center; 
             padding: 10px 28px 11px 27px;
-            margin-bottom: 40px;
+            margin: 20px 30px;
 
             a {
                 text-decoration: none;
@@ -1109,11 +1114,15 @@
             margin-bottom: -10px;
             color: $white;
 
+            .active {
+                background-color: white;
+            }
+
             li {
                 width: 10px;
                 height: 10px;
                 border-radius: 100%;
-                // background-color: unset;
+                background-color: unset;
                 border: 1px solid white;
                 margin: 0 11px 0;
             }
