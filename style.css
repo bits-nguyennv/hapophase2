@@ -80,7 +80,7 @@ html, body {
   padding: 0 20.3%;
   width: 100%;
   height: 571px;
-  padding-top: 100px;
+  padding-top: 80px;
   box-shadow: 0 4px 8px #888888; }
   .mask .left img {
     margin-top: 2em;
@@ -215,7 +215,7 @@ html, body {
         .members .left .today .magin p {
           font-size: 48px; }
     .members .left .ti-check-box {
-      color: #008000;
+      color: #8bc34a;
       margin-right: 19px;
       font-size: 18px; }
   .members .start {
@@ -263,7 +263,7 @@ html, body {
         .customers .right .today .magin p {
           font-size: 48px; }
     .customers .right .icon {
-      color: #008000;
+      color: #8bc34a;
       margin-right: 19px; }
     .customers .right .start {
       box-shadow: 1px 1.5px 5px #888888;
@@ -308,7 +308,8 @@ html, body {
     padding: 0 5vw;
     height: 286px; }
     .our-customer .total div {
-      font-size: 18px; }
+      font-size: 18px;
+      padding-right: 27px; }
     .our-customer .total i {
       font-size: 72px;
       color: gray; }
@@ -320,7 +321,7 @@ html, body {
       font-weight: lighter;
       letter-spacing: -0.03pt; }
     .our-customer .total .icon {
-      padding-top: 100px; }
+      padding-top: 120px; }
       .our-customer .total .icon i {
         margin-left: 0px; }
   .our-customer .designer {
@@ -403,6 +404,7 @@ html, body {
     .footer .magin i {
       color: #8bc34a;
       padding-left: 10px;
-      margin-bottom: -30px; }
+      margin-bottom: -30px;
+      padding: 0 10px; }
 
 /*# sourceMappingURL=style.css.map */

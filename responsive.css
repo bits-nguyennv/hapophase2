@@ -80,7 +80,7 @@
     text-align: center;
     margin-top: 10px;
     box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
-    padding: 30px 30px; }
+    padding: 15px 30px; }
     .mask-mb .today {
       font-size: 36px;
       font-weight: 100;
@@ -124,7 +124,7 @@
     width: 100%;
     text-align: center;
     margin-top: 10px;
-    padding: 30px 30px; }
+    padding: 15px 30px; }
     .colum-mb .today {
       font-size: 36px;
       font-weight: 100;
@@ -170,7 +170,7 @@
     width: 100%;
     text-align: center;
     margin-top: 10px;
-    padding: 30px 30px;
+    padding: 15px 30px;
     box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1); }
     .members-mb .today {
       font-size: 36px;
@@ -189,7 +189,7 @@
       margin-top: 10px;
       line-height: 21px; }
       .members-mb .left i {
-        color: #008000;
+        color: #8bc34a;
         margin-right: 10px;
         font-size: 18px; }
     .members-mb .image {
@@ -217,7 +217,7 @@
     width: 100%;
     text-align: center;
     margin-top: 10px;
-    padding: 30px 40px; }
+    padding: 15px 40px; }
     .customers-mb .today {
       font-size: 36px;
       font-weight: 100;
@@ -239,7 +239,7 @@
       margin-top: 10px;
       line-height: 21px; }
       .customers-mb .right i {
-        color: #008000;
+        color: #8bc34a;
         margin-right: 10px;
         font-size: 18px; }
     .customers-mb .image {
@@ -268,7 +268,7 @@
     width: 100%;
     text-align: center;
     margin-top: 10px;
-    padding: 30px 40px; }
+    padding: 15px 40px; }
     .project-mb .today {
       font-size: 36px;
       font-weight: 100;
@@ -329,7 +329,8 @@
       padding: 0 5vw;
       height: 286px; }
       .our-customer .total div {
-        font-size: 18px; }
+        font-size: 18px;
+        padding-right: 0px; }
       .our-customer .total i {
         font-size: 64px;
         color: gray; }
@@ -367,7 +368,8 @@
       margin-top: 40px; }
       .footer .magin .icon {
         font-size: 14px;
-        color: #8bc34a; }
+        color: #8bc34a;
+        padding: 0 4px; }
 
   .oval {
     padding: 66.5px 0;
@@ -423,7 +425,7 @@
     .header .hapo {
       text-align: center; }
       .header .hapo img {
-        height: 29px;
+        height: 26px;
         width: 96px;
         margin-top: -30px;
         margin-bottom: -3px; }
@@ -567,7 +569,7 @@
       margin-top: 10px;
       line-height: 21px; }
       .members-mb .left i {
-        color: #008000;
+        color: #8bc34a;
         margin-right: 10px;
         font-size: 18px; }
     .members-mb .image {
@@ -637,7 +639,7 @@
   .project-mb {
     width: 100%;
     text-align: center;
-    padding: 20px 20px; }
+    padding: 10px 20px; }
     .project-mb .today {
       font-size: 24px;
       font-weight: 100;
