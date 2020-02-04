@@ -289,7 +289,8 @@ html, body {
 
 .our-customer {
   width: 100%;
-  background: url(rectangle3.png) no-repeat; }
+  background: url(rectangle3.png) no-repeat;
+  padding: 0 20.3%; }
   .our-customer .our {
     color: white;
     text-align: center;
@@ -390,7 +391,7 @@ html, body {
   width: 100%;
   background: #283238;
   margin-bottom: 10px;
-  padding: 30px 30px; }
+  padding: 20px 20.3%; }
   .footer .row {
     padding: 30px; }
   .footer .color {
