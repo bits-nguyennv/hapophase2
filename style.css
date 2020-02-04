@@ -269,7 +269,8 @@ html, body {
           font-size: 48px; }
     .customers .right .icon {
       color: #8bc34a;
-      margin-right: 19px; }
+      margin-right: 19px;
+      margin-top: 5px; }
     .customers .right .start {
       box-shadow: 1px 1.5px 5px #888888;
       padding: 15px 48px 14px 48px;
